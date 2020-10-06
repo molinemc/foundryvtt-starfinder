@@ -1,0 +1,6 @@
+let message = "";
+var char;
+for (char of game.data.actors){
+  message += "\n\n" + char.name + ": " + "[[1d20 + " + char.data.abilities.str.mod + "]]";
+}
+ChatMessage.create({user : game.user._id, speaker: ChatMessage.getSpeaker(), content: message}, {});

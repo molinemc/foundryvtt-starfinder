@@ -1,10 +1,10 @@
 /**
  * The Starfinder game system for Foundry Virtual Tabletop
- * Author: wildj79
+ * Author: molinemc (adapted from wildj79)
  * Software License: MIT
  * Content License: OGL v1.0a
- * Repository: https://github.com/wildj79/foundryvtt-starfinder
- * Issue Tracker: https://github.com/wildj79/foundryvtt-starfinder/issues
+ * Repository: https://github.com/molinemc/foundryvtt-starfinder
+ * Issue Tracker: https://github.com/molinemc/foundryvtt-starfinder/issues
  */
 import { SFRPG } from "./module/config.js";
 import { preloadHandlebarsTemplates } from "./module/templates.js";
