@@ -1,6 +1,6 @@
 {
     "name": "starpg",
-    "title": "Starfinder",
+    "title": "Starfinder Modified",
     "description": "A game system for running Starfinder in the Foundry VTT environment.",
     "version": "0.6.1.0",
     "author": "molinemc",
@@ -142,5 +142,5 @@
     "compatibleCoreVersion": "0.7.5",
     "url": "https://github.com/molinemc/foundryvtt-starfinder",
     "manifest": "https://raw.githubusercontent.com/molinemc/foundryvtt-starfinder/master/src/system.json",
-    "download": "https://github.com/molinemc/foundryvtt-starfinder/releases/download/v0.6.1.0/starpg-v0.6.1.0.zip"
+    "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.6.1.0/sfrpg-v0.6.1.0.zip"
 }
