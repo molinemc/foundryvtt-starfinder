@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.UVNOjH2ERlQjcGnU]{Zenith Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl54_LabelName\">When you’re fully graviton-attuned, you can call creatures of intense gravity to fight for you as a standard action. This functions as <em>summon creature</em> with a spell level equal to one-third your solarian level. You select which four creatures you can summon each time you gain a solarian level, and they must all be shadow creatures. Creatures you summon with this ability gain the Coordinated Shot feat.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.UVNOjH2ERlQjcGnU]{Zenith Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl54_LabelName\">When you’re fully graviton-attuned, you can call creatures of intense gravity to fight for you as a standard action. This functions as <em>summon creature</em> with a spell level equal to one-third your solarian level. You select which four creatures you can summon each time you gain a solarian level, and they must all be shadow creatures. Creatures you summon with this ability gain the Coordinated Shot feat.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/images/cup/gameplay/graviton.png"
+  "img": "systems/starpg/images/cup/gameplay/graviton.png"
 }

@@ -45,7 +45,7 @@ export default class SFRPGCustomChatMessage {
      */
     static async renderStandardRoll(roll, data, action) {
         //Get the template
-        const temmplateName = "systems/sfrpg/templates/chat/chat-message-attack-roll.html";
+        const temmplateName = "systems/starpg/templates/chat/chat-message-attack-roll.html";
         //get Actor
         const actor = data.actor ? data.actor : {};
         const item = data.data.item ? data.data.item : {};

@@ -5,7 +5,7 @@
 export class DroneRepairDialog extends Dialog {
     constructor(actor, dialogData={}, options={}) {
         super(dialogData, options);
-        this.options.classes = ["sfrpg", "dialog"];
+        this.options.classes = ["starpg", "dialog"];
 
         /**
          * Store a reference to the Actor entity which is resting
@@ -34,7 +34,7 @@ export class DroneRepairDialog extends Dialog {
 
     static async droneRepairDialog({actor, improvedRepairFeat=false}={}) {
         DroneRepairDialog.restoreStaminaPoints = false;
-        const html = await renderTemplate("systems/sfrpg/templates/apps/drone-repair.html");
+        const html = await renderTemplate("systems/starpg/templates/apps/drone-repair.html");
         return new Promise(resolve => {
             const dlg = new this(actor, {
                 title: game.i18n.format("SFRPG.RepairDroneDialogTitle"),

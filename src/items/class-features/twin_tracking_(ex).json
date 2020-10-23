@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;<a class=\"entity-link\" data-pack=\"sfrpg.class-features\" data-id=\"adsJnZ0jb15ZR1rL\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Exocortex</a></p>\n        <p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl04_LabelName\">You can designate two targets for your exocortex to track, increasing your base attack bonus against each. You can designate both targets with a single move action, but you must be able to see them both at that time.</span></p>",
+      "value": "<p>&gt;<a class=\"entity-link\" data-pack=\"starpg.class-features\" data-id=\"adsJnZ0jb15ZR1rL\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Exocortex</a></p>\n        <p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl04_LabelName\">You can designate two targets for your exocortex to track, increasing your base attack bonus against each. You can designate both targets with a single move action, but you must be able to see them both at that time.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/twin_tracking.png"
+  "img": "systems/starpg/icons/classes/twin_tracking.png"
 }

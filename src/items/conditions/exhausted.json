@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You move at half speed, you can’t run or charge, and you take a –3 penalty to your Armor Class, attack rolls, melee damage rolls, thrown weapon damage rolls, Reflex saving throws, initiative checks, and Strength- and Dexterity-based skill and ability checks.</p>\n<p style=\"text-align: justify;\">The amount of bulk you can carry without becoming encumbered is reduced by 3.</p>\n<p style=\"text-align: justify;\">After 1 hour of complete rest, you instead become fatigued.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You move at half speed, you can’t run or charge, and you take a –3 penalty to your Armor Class, attack rolls, melee damage rolls, thrown weapon damage rolls, Reflex saving throws, initiative checks, and Strength- and Dexterity-based skill and ability checks.</p>\n<p style=\"text-align: justify;\">The amount of bulk you can carry without becoming encumbered is reduced by 3.</p>\n<p style=\"text-align: justify;\">After 1 hour of complete rest, you instead become fatigued.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -166,7 +166,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/exhausted.png",
+  "img": "systems/starpg/icons/conditions/exhausted.png",
   "_id": "33ynSbmexuxC3cAQ",
   "sort": 1800000,
   "flags": {}

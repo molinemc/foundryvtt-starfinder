@@ -1,9 +1,9 @@
 {
-    "name": "sfrpg",
+    "name": "starpg",
     "title": "Starfinder",
     "description": "A game system for running Starfinder in the Foundry VTT environment.",
     "version": "0.6.1.0",
-    "author": "wildj79",
+    "author": "molinemc",
     "templateVersion": 2,
     "schema": 0.003,
     "scripts": [
@@ -11,38 +11,38 @@
         "lib/tippy/tippy.min.js"
     ],
     "esmodules": [
-        "sfrpg.js"
+        "starpg.js"
     ],
     "styles": [
         "styles/tippy.css",
-        "sfrpg.css"
+        "starpg.css"
     ],
     "packs": [
         {
             "name": "equipment",
             "label": "Equipment",
-            "system": "sfrpg",
+            "system": "starpg",
             "path": "./packs/equipment.db",
             "entity": "Item"
         },
         {
             "name": "feats",
             "label": "Feats",
-            "system": "sfrpg",
+            "system": "starpg",
             "path": "./packs/feats.db",
             "entity": "Item"
         },
         {
             "name": "spells",
             "label": "Spells",
-            "system": "sfrpg",
+            "system": "starpg",
             "path": "./packs/spells.db",
             "entity": "Item"
         },
         {
             "name": "races",
             "label": "Races",
-            "system": "sfrpg",
+            "system": "starpg",
             "path": "./packs/races.db",
             "entity": "Item"
         },
@@ -51,63 +51,63 @@
             "entity": "Item",
             "name": "classes",
             "path": "./packs/classes.db",
-            "system": "sfrpg"
+            "system": "starpg"
         },
         {
             "label": "Themes",
             "entity": "Item",
             "name": "themes",
             "path": "./packs/themes.db",
-            "system": "sfrpg"
+            "system": "starpg"
         },
         {
             "label": "Starship Weapons",
             "entity": "Item",
             "name": "starship-weapons",
             "path": "./packs/starship-weapons.db",
-            "system": "sfrpg"
+            "system": "starpg"
         },
         {
             "label": "SFRPG Rules",
             "entity": "JournalEntry",
             "name": "rules",
             "path": "./packs/rules.db",
-            "system": "sfrpg"
+            "system": "starpg"
         },
         {
             "label": "Tables",
             "entity": "RollTable",
             "name": "tables",
             "path": "./packs/tables.db",
-            "system": "sfrpg"
+            "system": "starpg"
         },
         {
             "label": "Conditions",
             "entity": "Item",
             "name": "conditions",
             "path": "./packs/conditions.db",
-            "system": "sfrpg"
+            "system": "starpg"
         },
         {
             "label": "Class Features",
             "entity": "Item",
             "name": "class-features",
             "path": "./packs/class-features.db",
-            "system": "sfrpg"
+            "system": "starpg"
         },
         {
             "label": "Universal Creature Rules",
             "entity": "Item",
             "name": "universal-creature-rules",
             "path": "./packs/universal-creature-rules.db",
-            "system": "sfrpg"
+            "system": "starpg"
         },
         {
             "label": "Alien Archives",
             "entity": "Actor",
             "name": "alien-archives",
             "path": "./packs/alien-archives.db",
-            "system": "sfrpg"
+            "system": "starpg"
         }
     ],
     "languages": [
@@ -140,7 +140,7 @@
     "secondaryTokenAttribute": "attributes.sp",
     "minimumCoreVersion": "0.7.4",
     "compatibleCoreVersion": "0.7.5",
-    "url": "https://github.com/wildj79/foundryvtt-starfinder",
-    "manifest": "https://raw.githubusercontent.com/wildj79/foundryvtt-starfinder/master/src/system.json",
-    "download": "https://github.com/wildj79/foundryvtt-starfinder/releases/download/v0.6.1.0/sfrpg-v0.6.1.0.zip"
+    "url": "https://github.com/molinemc/foundryvtt-starfinder",
+    "manifest": "https://raw.githubusercontent.com/molinemc/foundryvtt-starfinder/master/src/system.json",
+    "download": "https://github.com/molinemc/foundryvtt-starfinder/releases/download/v0.6.1.0/starpg-v0.6.1.0.zip"
 }

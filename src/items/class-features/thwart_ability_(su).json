@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.0JZU0FVnvAJ08fVR]{Paradigm Shift}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">As a reaction when you or an ally within 100 feet is affected by a spell or ability that allows a saving throw and would deal Stamina Point, Hit Point, or ability damage, you can spend 1 Resolve Point to grant the target a new saving throw with a +2 bonus to avoid or mitigate the effect’s damage and effects.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.0JZU0FVnvAJ08fVR]{Paradigm Shift}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">As a reaction when you or an ally within 100 feet is affected by a spell or ability that allows a saving throw and would deal Stamina Point, Hit Point, or ability damage, you can spend 1 Resolve Point to grant the target a new saving throw with a +2 bonus to avoid or mitigate the effect’s damage and effects.</span></p>",
       "chat": "",
       "unidentified": ""
     },

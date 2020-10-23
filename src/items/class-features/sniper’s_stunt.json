@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">If you were hidden at the start of your turn and have cover or concealment at the end of your turn, you can attempt a Stealth check to hide as if you were using the sniping task of the Stealth skill.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">If you were hidden at the start of your turn and have cover or concealment at the end of your turn, you can attempt a Stealth check to hide as if you were using the sniping task of the Stealth skill.</span></p>",
       "chat": "",
       "unidentified": ""
     },

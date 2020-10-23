@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p>All of your speeds are reduced by 10 feet, your maximum Dexterity bonus to your Armor Class is reduced to +2, and you take a –5 penalty to Strength- and Dexterity-based checks (or you take your armor’s armor check penalty, whichever is worse).</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p>All of your speeds are reduced by 10 feet, your maximum Dexterity bonus to your Armor Class is reduced to +2, and you take a –5 penalty to Strength- and Dexterity-based checks (or you take your armor’s armor check penalty, whichever is worse).</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -96,7 +96,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/encumbered.png",
+  "img": "systems/starpg/icons/conditions/encumbered.png",
   "_id": "OwZA6flUQPH0jPA0",
   "sort": 1600000,
   "flags": {}

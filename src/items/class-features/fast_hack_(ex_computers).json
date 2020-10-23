@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.DR8JvF0xiwsXggxj]{Expertise Talent}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl18_LabelName\">When you attempt a Computers check to hack into a computer system, you can forgo rolling your expertise die to instead halve the time it takes to make the attempt (to a minimum of 1 round). At 9th level, if you successfully hack the system, you can also negate a single countermeasure protecting that computer system. You cannot use this talent to negate a countermeasure from the same computer again for 24 hours.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.DR8JvF0xiwsXggxj]{Expertise Talent}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl18_LabelName\">When you attempt a Computers check to hack into a computer system, you can forgo rolling your expertise die to instead halve the time it takes to make the attempt (to a minimum of 1 round). At 9th level, if you successfully hack the system, you can also negate a single countermeasure protecting that computer system. You cannot use this talent to negate a countermeasure from the same computer again for 24 hours.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/fast_hack.png"
+  "img": "systems/starpg/icons/classes/fast_hack.png"
 }

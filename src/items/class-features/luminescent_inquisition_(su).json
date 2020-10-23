@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl31_LabelName\">Your light shines upon your enemies and reveals the truth. As a move action, you can grant a weapon you wield, including your solar weapon or unarmed attacks, the aurora weapon special property. This benefit lasts for 1 round or until you leave photon mode, whichever comes first. When you are attuned or fully attuned, your weapon also gains the demoralize critical hit effect in addition to its normal critical hit effect.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl31_LabelName\">Your light shines upon your enemies and reveals the truth. As a move action, you can grant a weapon you wield, including your solar weapon or unarmed attacks, the aurora weapon special property. This benefit lasts for 1 round or until you leave photon mode, whichever comes first. When you are attuned or fully attuned, your weapon also gains the demoralize critical hit effect in addition to its normal critical hit effect.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/images/cup/gameplay/photon.png"
+  "img": "systems/starpg/images/cup/gameplay/photon.png"
 }

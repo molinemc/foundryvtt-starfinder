@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">During a stunt and strike, drawing a weapon with the thrown property requires no action, and ranged attacks you make with thrown weapons don’t provoke attacks of opportunity.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">During a stunt and strike, drawing a weapon with the thrown property requires no action, and ranged attacks you make with thrown weapons don’t provoke attacks of opportunity.</span></p>",
       "chat": "",
       "unidentified": ""
     },

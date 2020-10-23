@@ -4,7 +4,7 @@
 export class CounterManagementWindows extends Dialog {
     constructor(dialogData={}, options={}) {
         super(dialogData, options);
-        this.options.classes = ["sfrpg", "dialog"];
+        this.options.classes = ["starpg", "dialog"];
         this.windows = null;
     }
 
@@ -17,7 +17,7 @@ export class CounterManagementWindows extends Dialog {
         let counterClassesLabel = CONFIG.SFRPG.counterClassesLabel;
 
         const Actor = game.actors.get(actorId);
-        const htmlContent = await renderTemplate("systems/sfrpg/templates/classes/counter-management.html", {
+        const htmlContent = await renderTemplate("systems/starpg/templates/classes/counter-management.html", {
             counter: Actor.data.data.counterClasses.values[targetClasses].count,
             labelClasses: game.i18n.localize(counterClassesLabel[targetClasses]),
             currentPosition: Actor.data.data.counterClasses.values[targetClasses].position,

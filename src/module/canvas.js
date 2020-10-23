@@ -9,14 +9,14 @@ Hooks.on('updateToken', onTokenUpdated);
 
 function onCanvasReady(...args) {
     for (let placeable of canvas.tokens.placeables) {
-		if (placeable.getFlag("sfrpg", "itemCollection")) {
+		if (placeable.getFlag("starpg", "itemCollection")) {
             setupLootCollectionTokenInteraction(placeable);
         }
     }
 }
 
 async function onTokenCreated(scene, tokenData, tokenFlags, userId) {
-    if (getProperty(tokenData, "flags.sfrpg.itemCollection")) {
+    if (getProperty(tokenData, "flags.starpg.itemCollection")) {
         const token = canvas.tokens.placeables.find(x => x.id === tokenData._id);
 
         await new Promise(resolve => setTimeout(resolve, 25));
@@ -31,7 +31,7 @@ async function onTokenCreated(scene, tokenData, tokenFlags, userId) {
 }
 
 async function onTokenUpdated(scene, tokenData, tokenFlags, userId) {
-    if (getProperty(tokenData, "flags.sfrpg.itemCollection")) {
+    if (getProperty(tokenData, "flags.starpg.itemCollection")) {
         const token = canvas.tokens.placeables.find(x => x.id === tokenData._id);
 
         await new Promise(resolve => setTimeout(resolve, 25));
@@ -235,7 +235,7 @@ function setupLootCollectionTokenInteraction(lootCollectionToken) {
 
 function openLootCollectionSheet(event) {
     const relevantToken = this;
-    if (relevantToken.data.flags.sfrpg.itemCollection.locked && !game.user.isGM) {
+    if (relevantToken.data.flags.starpg.itemCollection.locked && !game.user.isGM) {
         ui.notifications.info(game.i18n.format("SFRPG.ItemCollectionSheet.ItemCollectionLocked"));
         return;
     }

@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">&gt;@Compendium[sfrpg.class-features.6zrV67znbGCh4EjF]{Mindbreaker}</span></p>\n<p>Whenever a foe succeeds at a Will save against one of your spells and completely negates the effect, that foe takes 1 nonlethal damage for each mystic level you have. This is a mind-affecting pain effect.</p>",
+      "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">&gt;@Compendium[starpg.class-features.6zrV67znbGCh4EjF]{Mindbreaker}</span></p>\n<p>Whenever a foe succeeds at a Will save against one of your spells and completely negates the effect, that foe takes 1 nonlethal damage for each mystic level you have. This is a mind-affecting pain effect.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/backlash.png"
+  "img": "systems/starpg/icons/classes/backlash.png"
 }

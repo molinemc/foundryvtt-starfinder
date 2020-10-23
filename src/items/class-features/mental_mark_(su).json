@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.sobLlAGQkmWcFBFx]{Magic Hack}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl40_LabelName\">When an enemy fails a Will save against one of your technomancer spells, it takes a –2 penalty to saving throws and AC for 1 round. When an enemy succeeds at a Will save against one of your technomancer spells, it takes a –1 penalty to saving throws against your spells for 1 round. A creature can take only one penalty from a mental mark at a time.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.sobLlAGQkmWcFBFx]{Magic Hack}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl40_LabelName\">When an enemy fails a Will save against one of your technomancer spells, it takes a –2 penalty to saving throws and AC for 1 round. When an enemy succeeds at a Will save against one of your technomancer spells, it takes a –1 penalty to saving throws against your spells for 1 round. A creature can take only one penalty from a mental mark at a time.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/mental_mark.png"
+  "img": "systems/starpg/icons/classes/mental_mark.png"
 }

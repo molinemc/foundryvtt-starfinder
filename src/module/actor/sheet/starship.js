@@ -7,15 +7,15 @@ import { ActorSheetSFRPG } from "./base.js";
 export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            classes: ["sfrpg", "sheet", "actor", "starship"],
+            classes: ["starpg", "sheet", "actor", "starship"],
             witdh: 600,
             height: 800
         });
     }
 
     get template() {
-        if (!game.user.isGM && this.actor.limited) return "systems/sfrpg/templates/actors/limited-starship-sheet.html";
-        return "systems/sfrpg/templates/actors/starship-sheet.html";
+        if (!game.user.isGM && this.actor.limited) return "systems/starpg/templates/actors/limited-starship-sheet.html";
+        return "systems/starpg/templates/actors/starship-sheet.html";
     }
 
     getData() {
@@ -69,11 +69,11 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
      * @param {Object} flags The set of flags for the Actor
      */
     _processFlags(data, flags) {
-        let sfrpg = flags["sfrpg"];
+        let starpg = flags["starpg"];
 
-        if (!sfrpg) sfrpg = {};
-        if (!sfrpg.shipsCrew) sfrpg.shipsCrew = {};
-        if (!sfrpg.shipsCrew.members) sfrpg.shipsCrew.members = [];
+        if (!starpg) starpg = {};
+        if (!starpg.shipsCrew) starpg.shipsCrew = {};
+        if (!starpg.shipsCrew.members) starpg.shipsCrew.members = [];
         
         // TODO: There are two more roles added in the Character Operations Manual that need to be added.
         const crew = {
@@ -85,12 +85,12 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
             passengers: { label: "Passengers", actors: [], dataset: { type: "shipsCrew", role: "passengers" }}
         }
 
-        let [captian, engineers, gunners, pilot, scienceOfficers, passengers] = sfrpg.shipsCrew.members.reduce((arr, id) => {
+        let [captian, engineers, gunners, pilot, scienceOfficers, passengers] = starpg.shipsCrew.members.reduce((arr, id) => {
             let actor = game.actors.get(id);
             
             if (!actor) return arr;
 
-            let crewMember = actor.getFlag("sfrpg", "crewMember") || null;
+            let crewMember = actor.getFlag("starpg", "crewMember") || null;
             if (!crewMember) return arr;
 
             actor.data.img = actor.data.img || DEFAULT_TOKEN;
@@ -293,7 +293,7 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
 
         if (!data.id) return false;
 
-        let c = this.actor.getFlag("sfrpg","shipsCrew");
+        let c = this.actor.getFlag("starpg","shipsCrew");
         let crew;
 
         if (c) crew = duplicate(c);
@@ -315,7 +315,7 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
 
         await actor.setCrewMemberRole(this.actor.id, role);
         this.actor.update({
-            "flags.sfrpg.shipsCrew": crew
+            "flags.starpg.shipsCrew": crew
         }).then(this.render(false));
 
         return false;
@@ -393,13 +393,13 @@ export class ActorSheetSFRPGStarship extends ActorSheetSFRPG {
 
         await actor.removeFromCrew();
         
-        let shipsCrew = this.actor.getFlag('sfrpg', 'shipsCrew');
+        let shipsCrew = this.actor.getFlag('starpg', 'shipsCrew');
 
         if (!shipsCrew) return;
         
         let updateData = shipsCrew.members.filter((val) => val !== actor.id);
 
-        await this.actor.update({'flags.sfrpg.shipsCrew.members': updateData});
+        await this.actor.update({'flags.starpg.shipsCrew.members': updateData});
     }
 
     /**

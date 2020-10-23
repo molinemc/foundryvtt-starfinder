@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p>You are unable to act normally.</p>\n<p>You can take no actions but have no penalty to your AC.</p>\n<p>A dazed condition typically lasts 1 round.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p>You are unable to act normally.</p>\n<p>You can take no actions but have no penalty to your AC.</p>\n<p>A dazed condition typically lasts 1 round.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -67,7 +67,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/dazed.png",
+  "img": "systems/starpg/icons/conditions/dazed.png",
   "_id": "2XWEujYSyryB4oHm",
   "sort": 1100000,
   "flags": {}

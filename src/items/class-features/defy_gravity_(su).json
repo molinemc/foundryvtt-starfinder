@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl25_LabelName\">As a move action, you can fly up to your speed. You must end this movement on solid ground or you fall. At 12th level or higher, you don’t have to land if you immediately follow your flight with another move action to use defy gravity. On your last move action of the turn, you still have to land or fall.<br><br>When you are attuned or fully attuned, your fly speed from this revelation increases by 10 feet.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl25_LabelName\">As a move action, you can fly up to your speed. You must end this movement on solid ground or you fall. At 12th level or higher, you don’t have to land if you immediately follow your flight with another move action to use defy gravity. On your last move action of the turn, you still have to land or fall.<br><br>When you are attuned or fully attuned, your fly speed from this revelation increases by 10 feet.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/defy_gravity.png"
+  "img": "systems/starpg/icons/classes/defy_gravity.png"
 }

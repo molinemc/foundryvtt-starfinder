@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You take the listed amount of damage at the beginning of your turn each round until this condition ends.</p>\n<p style=\"text-align: justify;\">Your bleeding can be stopped with a successful DC 15 Medicine check as a standard action, or through the application of any ability that restores Hit Points.</p>\n<p style=\"text-align: justify;\">If you take two or more bleed effects, you take only the damage from the worst effect.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You take the listed amount of damage at the beginning of your turn each round until this condition ends.</p>\n<p style=\"text-align: justify;\">Your bleeding can be stopped with a successful DC 15 Medicine check as a standard action, or through the application of any ability that restores Hit Points.</p>\n<p style=\"text-align: justify;\">If you take two or more bleed effects, you take only the damage from the worst effect.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -67,7 +67,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/Bleeding.png",
+  "img": "systems/starpg/icons/conditions/Bleeding.png",
   "_id": "v9RNVTqyTyaPchvd",
   "sort": 100000,
   "flags": {}

@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>(EX)</p>\n<p>Blindsight is a more precise version of @Compendium[sfrpg.universal-creature-rules.c6EuAEYG1qEIv82D]{Blindsense}. This ability operates out to a specified range. A creature with blindsight typically perceives using a specific type of sense, indicated in parentheses. See page 262 of the Starfinder Core Rulebook for more information.</p>\n<p>Guidelines: Blindsight usually has a range of 60 feet.</p>\n<hr>\n<p>&nbsp;</p>",
+      "value": "<p>(EX)</p>\n<p>Blindsight is a more precise version of @Compendium[starpg.universal-creature-rules.c6EuAEYG1qEIv82D]{Blindsense}. This ability operates out to a specified range. A creature with blindsight typically perceives using a specific type of sense, indicated in parentheses. See page 262 of the Starfinder Core Rulebook for more information.</p>\n<p>Guidelines: Blindsight usually has a range of 60 feet.</p>\n<hr>\n<p>&nbsp;</p>",
       "chat": "",
       "unidentified": ""
     },

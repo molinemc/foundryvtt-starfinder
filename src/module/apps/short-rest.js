@@ -5,7 +5,7 @@
 export class ShortRestDialog extends Dialog {
     constructor(actor, dialogData={}, options={}) {
         super(dialogData, options);
-        this.options.classes = ["sfrpg", "dialog"];
+        this.options.classes = ["starpg", "dialog"];
 
         /**
          * Store a reference to the Actor entity which is resting
@@ -34,7 +34,7 @@ export class ShortRestDialog extends Dialog {
 
     static async shortRestDialog({actor, canRestoreStaminaPoints=true}={}) {
         ShortRestDialog.restoreStaminaPoints = false;
-        const html = await renderTemplate("systems/sfrpg/templates/apps/short-rest.html");
+        const html = await renderTemplate("systems/starpg/templates/apps/short-rest.html");
         return new Promise(resolve => {
             const dlg = new this(actor, {
                 title: game.i18n.format("SFRPG.RestSTitle"),
@@ -85,7 +85,7 @@ export class ShortRestDialog extends Dialog {
                 },
                 default: 'rest',
                 close: reject
-            }, {classes: ["sfrpg", "dialog"]}).render(true);
+            }, {classes: ["starpg", "dialog"]}).render(true);
         });
     }
 }

@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You take a –2 penalty to attack rolls, saving throws, skill checks, and ability checks while you have the shaken condition.</p>\n<p style=\"text-align: justify;\">If you are already shaken and then become subject to an additional effect that would cause you to be shaken, the duration of the shaken condition increases by the duration of the second effect.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You take a –2 penalty to attack rolls, saving throws, skill checks, and ability checks while you have the shaken condition.</p>\n<p style=\"text-align: justify;\">If you are already shaken and then become subject to an additional effect that would cause you to be shaken, the duration of the shaken condition increases by the duration of the second effect.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -110,7 +110,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/shaken.png",
+  "img": "systems/starpg/icons/conditions/shaken.png",
   "_id": "nywSVEeDvp1bk7L3",
   "sort": 3300000,
   "flags": {}

@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.wFTC0sGqdpnZUib4]{Gear Boost}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl03_LabelName\"><span id=\"ctl00_MainContent_DataListTalentsAll_ctl16_LabelName\">Whenever you’re wearing armor (including powered armor), you reduce your total armor check penalty by 1 (minimum 0) and total speed adjustment by 5 feet (minimum adjustment 0 feet). The armor check penalty reduction increases by 1 at 7th level and every 4 levels thereafter. At 11th level, you reduce the armor’s speed adjustment by 10 feet (minimum adjustment 0 feet). These benefits stack with similar effects, such as from the guard fighting style’s 1st-level style technique.</span><br></span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.wFTC0sGqdpnZUib4]{Gear Boost}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl03_LabelName\"><span id=\"ctl00_MainContent_DataListTalentsAll_ctl16_LabelName\">Whenever you’re wearing armor (including powered armor), you reduce your total armor check penalty by 1 (minimum 0) and total speed adjustment by 5 feet (minimum adjustment 0 feet). The armor check penalty reduction increases by 1 at 7th level and every 4 levels thereafter. At 11th level, you reduce the armor’s speed adjustment by 10 feet (minimum adjustment 0 feet). These benefits stack with similar effects, such as from the guard fighting style’s 1st-level style technique.</span><br></span></p>",
       "chat": "",
       "unidentified": ""
     },

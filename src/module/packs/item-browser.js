@@ -8,8 +8,8 @@ import { packLoader } from './pack-loader.js';
 export class ItemBrowserSFRPG extends Application {
   static get defaultOptions() {
     const options = super.defaultOptions;
-    options.template = 'systems/sfrpg/templates/packs/item-browser.html';
-    options.classes = options.classes.concat(['sfrpg', 'item-browser-window']);
+    options.template = 'systems/starpg/templates/packs/item-browser.html';
+    options.classes = options.classes.concat(['starpg', 'item-browser-window']);
     options.title = game.i18n.format("SFRPG.Browsers.ItemBrowser.Title");
     options.width = 800;
     options.height = 700;
@@ -336,7 +336,7 @@ export class ItemBrowserSFRPG extends Application {
   initializeSettings() {
     let configuration = this.getConfigurationProperties();
 
-    game.settings.register('sfrpg', configuration.settings, {
+    game.settings.register('starpg', configuration.settings, {
         name: `${configuration.label} Settings`,
         hint: 'Settings to exclude packs from loading',
         default: '',
@@ -347,7 +347,7 @@ export class ItemBrowserSFRPG extends Application {
         }
     }); // load settings from container
 
-    let settings = game.settings.get('sfrpg', configuration.settings);
+    let settings = game.settings.get('starpg', configuration.settings);
     if (settings == '') {
         // if settings are empty create the settings data
         console.log(`SFRPG | ${configuration.label} | Creating settings`);
@@ -362,7 +362,7 @@ export class ItemBrowserSFRPG extends Application {
             }
         }
 
-        game.settings.set('sfrpg', configuration.settings, JSON.stringify(settings));
+        game.settings.set('starpg', configuration.settings, JSON.stringify(settings));
     } else {
         // if settings do exist, reload and apply them to make sure they conform with current compendium
         console.log(`SFRPG | ${configuration.label} | Loading settings`);
@@ -417,7 +417,7 @@ export class ItemBrowserSFRPG extends Application {
     
             console.log(`SFRPG System | ${configuration.label} | Saving new Settings`); // write Item Browser settings
     
-            game.settings.set('sfrpg', configuration.settings, JSON.stringify(this.settings)); // write Item Browser settings
+            game.settings.set('starpg', configuration.settings, JSON.stringify(this.settings)); // write Item Browser settings
             this.forceReload = true;
         }
     }, {

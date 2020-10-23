@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.Dysu4F8licjEb2FY]{Vanguard Discipline}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">You have learned to bleed energy from the attacks of your allies when they affect you. You can reduce the damage you take from your allies’ attacks and effects by an amount equal to twice your vanguard level, to a minimum of 0.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.Dysu4F8licjEb2FY]{Vanguard Discipline}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">You have learned to bleed energy from the attacks of your allies when they affect you. You can reduce the damage you take from your allies’ attacks and effects by an amount equal to twice your vanguard level, to a minimum of 0.</span></p>",
       "chat": "",
       "unidentified": ""
     },

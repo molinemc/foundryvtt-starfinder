@@ -4,7 +4,7 @@ import { degtorad } from "./utilities.js";
 export default function() {
     const _templateLayerOriginalOnDragLeftStart = TemplateLayer.prototype._onDragLeftStart;
     TemplateLayer.prototype._onDragLeftStart = function (event) {
-        if (!game.settings.get("sfrpg", "useStarfinderAOETemplates")) return _templateLayerOriginalOnDragLeftStart.call(this, event);
+        if (!game.settings.get("starpg", "useStarfinderAOETemplates")) return _templateLayerOriginalOnDragLeftStart.call(this, event);
 
         PlaceablesLayer.prototype._onDragLeftStart.call(this, event);
 
@@ -35,7 +35,7 @@ export default function() {
 
     const _templateLayerOriginalOnDragLeftMove = TemplateLayer.prototype._onDragLeftMove;
     TemplateLayer.prototype._onDragLeftMove = function (event) {
-        if (!game.settings.get("sfrpg", "useStarfinderAOETemplates")) return _templateLayerOriginalOnDragLeftMove.call(this, event);
+        if (!game.settings.get("starpg", "useStarfinderAOETemplates")) return _templateLayerOriginalOnDragLeftMove.call(this, event);
 
         PlaceablesLayer.prototype._onDragLeftMove.call(this, event);
         if (event.data.createState >= 1) {
@@ -68,7 +68,7 @@ export default function() {
 
     const _measuredTemplateOriginalHightlightGrid = MeasuredTemplate.prototype.highlightGrid;
     MeasuredTemplate.prototype.highlightGrid = function () {
-        if (!game.settings.get("sfrpg", "useStarfinderAOETemplates") || !["circle", "cone"].includes(this.data.t)) return _measuredTemplateOriginalHightlightGrid.call(this);
+        if (!game.settings.get("starpg", "useStarfinderAOETemplates") || !["circle", "cone"].includes(this.data.t)) return _measuredTemplateOriginalHightlightGrid.call(this);
 
         const grid = canvas.grid;
         const d = canvas.dimensions;

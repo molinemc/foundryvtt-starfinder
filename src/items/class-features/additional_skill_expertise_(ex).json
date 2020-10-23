@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.DR8JvF0xiwsXggxj]{Expertise Talent}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Choose another skill in which you have at least 1 rank from the list of skills you can choose with the expertise class feature; you can use expertise with that skill. You can choose this talent up to three times, choosing a different skill each time.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.DR8JvF0xiwsXggxj]{Expertise Talent}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Choose another skill in which you have at least 1 rank from the list of skills you can choose with the expertise class feature; you can use expertise with that skill. You can choose this talent up to three times, choosing a different skill each time.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/additional_skill_expertise.png"
+  "img": "systems/starpg/icons/classes/additional_skill_expertise.png"
 }

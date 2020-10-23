@@ -75,7 +75,7 @@
         {{#if children}}
         <ol class="item-list-child">
         {{#each children as |childItem iid|}}
-            {{> "systems/sfrpg/templates/actors/parts/actor-inventory-item.html" ../this bigItem=false item=childItem.item children=childItem.contents}}
+            {{> "systems/starpg/templates/actors/parts/actor-inventory-item.html" ../this bigItem=false item=childItem.item children=childItem.contents}}
         {{/each}}
         </ol>
         {{/if}}

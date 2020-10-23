@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.oHKHSbFfmBgFfvW8]{Guard}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">You reduce the armor check penalty of armor you wear by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor by 1.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.oHKHSbFfmBgFfvW8]{Guard}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">You reduce the armor check penalty of armor you wear by 1 (to a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor by 1.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/armor_training.png"
+  "img": "systems/starpg/icons/classes/armor_training.png"
 }

@@ -11,7 +11,7 @@ export class ActorSheetSFRPGNPC extends ActorSheetSFRPG {
     static get defaultOptions() {
         const options = super.defaultOptions;
         mergeObject(options, {
-            classes: options.classes.concat(['sfrpg', 'actor', 'sheet', 'npc']),
+            classes: options.classes.concat(['starpg', 'actor', 'sheet', 'npc']),
             width: 720,
             height: 765
         });
@@ -20,7 +20,7 @@ export class ActorSheetSFRPGNPC extends ActorSheetSFRPG {
     }
 
     get template() {
-        const path = "systems/sfrpg/templates/actors/";
+        const path = "systems/starpg/templates/actors/";
         if (!game.user.isGM && this.actor.limited) return path + "limited-sheet.html";
         return path + "npc-sheet.html";
     }

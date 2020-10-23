@@ -39,7 +39,7 @@ export class ItemSheetSFRPG extends ItemSheet {
         return mergeObject(super.defaultOptions, {
             width: 715,
             height: 600,
-            classes: ["sfrpg", "sheet", "item"],
+            classes: ["starpg", "sheet", "item"],
             resizable: true,
             scrollY: [".tab.details"],
             tabs: [{
@@ -57,7 +57,7 @@ export class ItemSheetSFRPG extends ItemSheet {
      * @return {string}
      */
     get template() {
-        const path = "systems/sfrpg/templates/items";
+        const path = "systems/starpg/templates/items";
         return `${path}/${this.item.data.type}.html`;
     }
 

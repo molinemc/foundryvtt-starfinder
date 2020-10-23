@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You can take a single move action or standard action each round, but not both, nor can you take full actions. You can still take swift actions, but not reactions.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You can take a single move action or standard action each round, but not both, nor can you take full actions. You can still take swift actions, but not reactions.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -67,7 +67,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/staggered.png",
+  "img": "systems/starpg/icons/conditions/staggered.png",
   "_id": "aAQ6SW6iK0EVq8Ce",
   "sort": 3600000,
   "flags": {}

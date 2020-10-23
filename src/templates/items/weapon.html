@@ -1,7 +1,7 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
     {{!-- Item Sheet Header --}}
-    {{> "systems/sfrpg/templates/items/parts/item-header.html"}}
+    {{> "systems/starpg/templates/items/parts/item-header.html"}}
 
     {{!-- Item Sheet Navigation --}}
     <nav class="sheet-navigation tabs" data-group="primary">
@@ -14,7 +14,7 @@
     <section class="sheet-body">
 
         {{!-- Description Tab --}}
-        {{> "systems/sfrpg/templates/items/parts/item-description.html"}}
+        {{> "systems/starpg/templates/items/parts/item-description.html"}}
 
         {{!-- Details Tab --}}
         <div class="tab details" data-group="primary" data-tab="details">
@@ -77,32 +77,32 @@
             <h3 class="form-header">{{ localize "SFRPG.Items.Weapon.Usage" }}</h3>
 
             {{!-- Item Activation Template --}}
-            {{> "systems/sfrpg/templates/items/parts/item-activation.html"}}
+            {{> "systems/starpg/templates/items/parts/item-activation.html"}}
 
             <br />
 
             <h3 class="form-header">{{ localize "SFRPG.Items.Weapon.Attack" }}</h3>
 
             {{!-- Item Action Template --}}
-            {{> "systems/sfrpg/templates/items/parts/item-action.html"}}
+            {{> "systems/starpg/templates/items/parts/item-action.html"}}
 
             <br />
 
             <h3 class="form-header">{{ localize "SFRPG.CapacityUsage" }}</h3>
-            {{> "systems/sfrpg/templates/items/parts/item-capacity.html"}}
+            {{> "systems/starpg/templates/items/parts/item-capacity.html"}}
 
             <br />
 
-            {{> "systems/sfrpg/templates/items/parts/physical-item-details.html"}}
+            {{> "systems/starpg/templates/items/parts/physical-item-details.html"}}
 
             <br />
 
-            {{> "systems/sfrpg/templates/items/parts/container-details.html" message="SFRPG.ItemSheet.Weapons.ContainerTooltip"}}
+            {{> "systems/starpg/templates/items/parts/container-details.html" message="SFRPG.ItemSheet.Weapons.ContainerTooltip"}}
 
         </div>
 
         {{!-- Modifiers Tab --}}
-        {{> "systems/sfrpg/templates/items/parts/item-modifiers.html"}}
+        {{> "systems/starpg/templates/items/parts/item-modifiers.html"}}
         
     </section>
 </form>

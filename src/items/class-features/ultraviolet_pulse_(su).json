@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl17_LabelName\">You can debilitate your opponents’ defenses with ultraviolet light. As a standard action, you can focus ultraviolet light on a creature you can see within 60 feet. That creature takes a –1 penalty to all saving throws for 1 round, or until you leave photon mode. If you are attuned or fully attuned, all creatures within 10 feet of the target take a –1 penalty to all saving throws for as long as the target is affected by this stellar revelation. If you would become unattuned from using a zenith revelation, the penalty remains until after the zenith revelation is resolved.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl17_LabelName\">You can debilitate your opponents’ defenses with ultraviolet light. As a standard action, you can focus ultraviolet light on a creature you can see within 60 feet. That creature takes a –1 penalty to all saving throws for 1 round, or until you leave photon mode. If you are attuned or fully attuned, all creatures within 10 feet of the target take a –1 penalty to all saving throws for as long as the target is affected by this stellar revelation. If you would become unattuned from using a zenith revelation, the penalty remains until after the zenith revelation is resolved.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/images/cup/gameplay/photon.png"
+  "img": "systems/starpg/images/cup/gameplay/photon.png"
 }

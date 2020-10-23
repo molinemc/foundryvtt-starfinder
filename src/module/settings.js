@@ -1,5 +1,5 @@
 export const registerSystemSettings = function () {
-    game.settings.register("sfrpg", "diagonalMovement", {
+    game.settings.register("starpg", "diagonalMovement", {
         name: "SFRPG.SFRPGDiagN",
         hint: "SFRPG.SFRPGDiagL",
         scope: "world",
@@ -13,7 +13,7 @@ export const registerSystemSettings = function () {
         onChange: rule => canvas.grid.diagonalRule = rule
     });
 
-    game.settings.register("sfrpg", "disableExperienceTracking", {
+    game.settings.register("starpg", "disableExperienceTracking", {
         name: "SFRPG.SFRPGNoExpN",
         hint: "SFRPG.SFRPGNoExpL",
         scope: "world",
@@ -22,7 +22,7 @@ export const registerSystemSettings = function () {
         type: Boolean
     });
 
-    game.settings.register("sfrpg", "useAdvantageDisadvantage", {
+    game.settings.register("starpg", "useAdvantageDisadvantage", {
         name: "SFRPG.SFRPGUseAdvantageDisadvantage",
         hint: "SFRPG.SFRPGUseAdvantageDisadvantageHint",
         scope: "world",
@@ -31,7 +31,7 @@ export const registerSystemSettings = function () {
         type: Boolean
     });
 
-    game.settings.register("sfrpg", "autoCollapseItemCards", {
+    game.settings.register("starpg", "autoCollapseItemCards", {
         name: "SFRPG.SettingsAutoCollapseCardName",
         hint: "SFRPG.SettingsAutoCollapseCardHint",
         scope: "client",
@@ -43,7 +43,7 @@ export const registerSystemSettings = function () {
         }
     });
 
-    game.settings.register("sfrpg", "worldSchemaVersion", {
+    game.settings.register("starpg", "worldSchemaVersion", {
         name: "SFRPG.SettingsWorldSchemaVersionName",
         hint: "SFRPG.SettingsWorldSchemaVersionHint",
         scope: "world",
@@ -52,7 +52,7 @@ export const registerSystemSettings = function () {
         type: Number
     });
 
-    game.settings.register("sfrpg", "useCustomChatCard", {
+    game.settings.register("starpg", "useCustomChatCard", {
         name: "SFRPG.SettingsUseCustomChatCard",
         hint: "SFRPG.SettingsUseCustomChatCardHint",
         scope: "world",
@@ -61,7 +61,7 @@ export const registerSystemSettings = function () {
         type: Boolean
     });
 
-    game.settings.register("sfrpg", "useStarfinderAOETemplates", {
+    game.settings.register("starpg", "useStarfinderAOETemplates", {
         name: "SFRPG.SettingsUseStarfinderAOETemplates",
         hint: "SFRPG.SettingsUseStarfinderAOETemplatesHint",
         scope: "world",
@@ -70,7 +70,7 @@ export const registerSystemSettings = function () {
         type: Boolean
     });
 
-    game.settings.register("sfrpg", "useQuickRollAsDefault", {
+    game.settings.register("starpg", "useQuickRollAsDefault", {
         name: "SFRPG.SettingsUseQuickRollAsDefault",
         hint: "SFRPG.SettingsUseQuickRollAsDefaultHint",
         scope: "world",

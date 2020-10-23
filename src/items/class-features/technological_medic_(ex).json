@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.YMGOKoZtKgJqIsAD]{Mechanic Trick}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl22_LabelName\">You can use your knowledge of machines and technology to repair androids and robots. Whenever you attempt a Medicine check to assist an android, SRO, or other creature with the constructed racial trait or construct (technological) subtype, you can use your Engineering skill instead of Medicine to achieve the same results. Your custom rig acts as a medkit for this purpose (or an advanced medkit, if you are 5th level or higher).</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.YMGOKoZtKgJqIsAD]{Mechanic Trick}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl22_LabelName\">You can use your knowledge of machines and technology to repair androids and robots. Whenever you attempt a Medicine check to assist an android, SRO, or other creature with the constructed racial trait or construct (technological) subtype, you can use your Engineering skill instead of Medicine to achieve the same results. Your custom rig acts as a medkit for this purpose (or an advanced medkit, if you are 5th level or higher).</span></p>",
       "chat": "",
       "unidentified": ""
     },

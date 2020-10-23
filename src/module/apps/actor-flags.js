@@ -3,8 +3,8 @@ export class ActorSheetFlags extends BaseEntitySheet {
         const options = super.defaultOptions;
         return mergeObject(options, {
             id: "actor-flags",
-            classes: ["sfrpg"],
-            template: "systems/sfrpg/templates/apps/actor-flags.html",
+            classes: ["starpg"],
+            template: "systems/starpg/templates/apps/actor-flags.html",
             width: 500,
             closeOnSubmit: true
         });
@@ -29,7 +29,7 @@ export class ActorSheetFlags extends BaseEntitySheet {
             flag.type = v.type.name;
             flag.isCheckbox = v.type === Boolean;
             flag.isSelect = v.hasOwnProperty('choices');
-            flag.value = this.entity.getFlag("sfrpg", k);
+            flag.value = this.entity.getFlag("starpg", k);
             flags[v.section][k] = flag;
         }
 
@@ -46,6 +46,6 @@ export class ActorSheetFlags extends BaseEntitySheet {
             else updateData[k] = formData[k];
         }
 
-        actor.update({'flags.sfrpg': updateData});
+        actor.update({'flags.starpg': updateData});
     }
 }

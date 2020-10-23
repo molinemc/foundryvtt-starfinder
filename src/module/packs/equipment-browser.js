@@ -165,7 +165,7 @@ class EquipmentBrowserSFRPG extends ItemBrowserSFRPG {
         
                 console.log('SFRPG System | Equipment Browser | Saving new Settings'); // write Item Browser settings
         
-                game.settings.set('sfrpg', "equipmentBrowser", JSON.stringify(this.settings)); // write Item Browser settings
+                game.settings.set('starpg', "equipmentBrowser", JSON.stringify(this.settings)); // write Item Browser settings
                 this.forceReload = true;
             }
         }, {

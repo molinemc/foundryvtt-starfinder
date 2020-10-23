@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.9hIBsMSy3PmQzgus]{Experimental Weapon Prototype (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">&nbsp;You modify your experimental weapon prototype to deal multiple types of damage. Select one additional type of weapon damage that your weapon does not normally deal. When you attack with your experimental weapon prototype, you can deal either type of damage or both. Switching between damage types, or switching your weapon to deal both, is a move action. Each time you gain a level, you can switch your secondary damage type, but you can’t change the weapon’s original damage type without crafting a new experimental weapon prototype.&nbsp;</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.9hIBsMSy3PmQzgus]{Experimental Weapon Prototype (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">&nbsp;You modify your experimental weapon prototype to deal multiple types of damage. Select one additional type of weapon damage that your weapon does not normally deal. When you attack with your experimental weapon prototype, you can deal either type of damage or both. Switching between damage types, or switching your weapon to deal both, is a move action. Each time you gain a level, you can switch your secondary damage type, but you can’t change the weapon’s original damage type without crafting a new experimental weapon prototype.&nbsp;</span></p>",
       "chat": "",
       "unidentified": ""
     },

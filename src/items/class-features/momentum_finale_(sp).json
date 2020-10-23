@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.hxGhCeOFrN0keV9A]{Momentum}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\"><span id=\"ctl00_MainContent_DetailedOutput\">You can cast <em>telekinetic projectile</em> at will as a spell-like ability. Rather than dealing the spell’s normal damage, both the target and the projectile take damage as if you hit them with your entropic strike. Additionally, you can spend 2 Entropy Points to cast telekinesis as a spell-like ability, but only using its combat maneuver option.</span><br></span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.hxGhCeOFrN0keV9A]{Momentum}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\"><span id=\"ctl00_MainContent_DetailedOutput\">You can cast <em>telekinetic projectile</em> at will as a spell-like ability. Rather than dealing the spell’s normal damage, both the target and the projectile take damage as if you hit them with your entropic strike. Additionally, you can spend 2 Entropy Points to cast telekinesis as a spell-like ability, but only using its combat maneuver option.</span><br></span></p>",
       "chat": "",
       "unidentified": ""
     },

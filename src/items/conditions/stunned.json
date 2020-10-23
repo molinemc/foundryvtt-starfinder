@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p>You drop everything you are holding, you can’t take actions, and you are @Compendium[sfrpg.conditions.Flat-Footed].</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p>You drop everything you are holding, you can’t take actions, and you are @Compendium[starpg.conditions.Flat-Footed].</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -67,7 +67,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/stunned.png",
+  "img": "systems/starpg/icons/conditions/stunned.png",
   "_id": "CvsDp0GvojxiF2jz",
   "sort": 3700000,
   "flags": {}

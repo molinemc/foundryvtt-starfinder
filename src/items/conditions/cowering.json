@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You’re frozen with fear.</p>\n<p style=\"text-align: justify;\">You’re @Compendium[sfrpg.conditions.Flat-Footed] and can take no actions.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You’re frozen with fear.</p>\n<p style=\"text-align: justify;\">You’re @Compendium[starpg.conditions.Flat-Footed] and can take no actions.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -67,7 +67,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/cowering.png",
+  "img": "systems/starpg/icons/conditions/cowering.png",
   "_id": "4WXJOFZ4s7TJUW6D",
   "sort": 1000000,
   "flags": {}

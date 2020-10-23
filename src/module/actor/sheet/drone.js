@@ -5,7 +5,7 @@ export class ActorSheetSFRPGDrone extends ActorSheetSFRPG {
     static get defaultOptions() {
         const options = super.defaultOptions;
         mergeObject(options, {
-            classes: ['sfrpg', 'sheet', 'actor', 'drone'],
+            classes: ['starpg', 'sheet', 'actor', 'drone'],
             width: 715,
             //height: 830
         });
@@ -14,7 +14,7 @@ export class ActorSheetSFRPGDrone extends ActorSheetSFRPG {
     }
 
     get template() {
-        const path = "systems/sfrpg/templates/actors/";
+        const path = "systems/starpg/templates/actors/";
         if (!game.user.isGM && this.actor.limited) return path + "limited-sheet.html";
         return path + "drone-sheet.html";
     }

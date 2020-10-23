@@ -16,10 +16,10 @@ export class ItemCollectionSheet extends BaseEntitySheet {
     static get defaultOptions() {
         const defaultOptions = super.defaultOptions;
         return mergeObject(defaultOptions, {
-            classes: defaultOptions.classes.concat(['sfrpg', 'actor', 'sheet', 'npc']),
+            classes: defaultOptions.classes.concat(['starpg', 'actor', 'sheet', 'npc']),
             height: 720,
             width: 720,
-            template: "systems/sfrpg/templates/apps/item-collection-sheet.html",
+            template: "systems/starpg/templates/apps/item-collection-sheet.html",
             closeOnSubmit: false,
             submitOnClose: true,
             submitOnChange: true,
@@ -36,7 +36,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
     }
 
     _handleTokenUpdated(scene, token, options, userId) {
-        if (token._id === this.itemCollection.id && token.flags.sfrpg.itemCollection.locked && !game.user.isGM) {
+        if (token._id === this.itemCollection.id && token.flags.starpg.itemCollection.locked && !game.user.isGM) {
             this.close();
         }
     }
@@ -72,7 +72,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
         data.owner = game.user.isGM;
         data.isGM = game.user.isGM;
 
-        const tokenData = this.entity.getFlag("sfrpg", "itemCollection");
+        const tokenData = this.entity.getFlag("starpg", "itemCollection");
 
         let items = duplicate(tokenData.items);
         for (let item of items) {
@@ -104,7 +104,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
             data.items.push(itemData);
         });
 
-        data.itemCollection = this.entity.data.flags.sfrpg.itemCollection;
+        data.itemCollection = this.entity.data.flags.starpg.itemCollection;
 
         if (data.itemCollection.locked && !game.user.isGM) {
             this.close();
@@ -155,7 +155,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
         event.preventDefault();
 
         await this.itemCollection.update({
-            "flags.sfrpg.itemCollection.locked": !this.entity.data.flags.sfrpg.itemCollection.locked
+            "flags.starpg.itemCollection.locked": !this.entity.data.flags.starpg.itemCollection.locked
         });
     }
 
@@ -163,7 +163,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
         event.preventDefault();
 
         await this.itemCollection.update({
-            "flags.sfrpg.itemCollection.deleteIfEmpty": !this.entity.data.flags.sfrpg.itemCollection.deleteIfEmpty
+            "flags.starpg.itemCollection.deleteIfEmpty": !this.entity.data.flags.starpg.itemCollection.deleteIfEmpty
         });
     }
 
@@ -176,7 +176,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
         event.preventDefault();
         let li = $(event.currentTarget).parents('.item');
         let itemId = li.attr("data-item-id");
-        const item = this.itemCollection.data.flags.sfrpg.itemCollection.items.find(x => x._id === itemId);
+        const item = this.itemCollection.data.flags.starpg.itemCollection.items.find(x => x._id === itemId);
         let chatData = this.getChatData(item, { secrets: true, rollData: item.data.data });
 
         if (li.hasClass('expanded')) {
@@ -195,7 +195,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
 
     _onItemEdit(event) {
         let itemId = $(event.currentTarget).parents('.item').attr("data-item-id");
-        const item = this.itemCollection.data.flags.sfrpg.itemCollection.items.find(x => x._id === itemId);
+        const item = this.itemCollection.data.flags.starpg.itemCollection.items.find(x => x._id === itemId);
         const itemData = {
             data: duplicate(item),
             labels: {},
@@ -217,7 +217,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
         let li = $(event.currentTarget).parents(".item");
         let itemId = li.attr("data-item-id");
 
-        const itemToDelete = this.itemCollection.data.flags.sfrpg.itemCollection.items.find(x => x._id === itemId);
+        const itemToDelete = this.itemCollection.data.flags.starpg.itemCollection.items.find(x => x._id === itemId);
         let containsItems = (itemToDelete.data.container?.contents && itemToDelete.data.container.contents.length > 0);
         ItemDeletionDialog.show(itemToDelete.name, containsItems, (recursive) => {
             this._deleteItemById(itemId, recursive);
@@ -232,7 +232,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
             let itemsToTest = [itemId];
             while (itemsToTest.length > 0) {
                 let itemIdToTest = itemsToTest.shift();
-                let itemData = this.itemCollection.data.flags.sfrpg.itemCollection.items.find(x => x._id === itemIdToTest);
+                let itemData = this.itemCollection.data.flags.starpg.itemCollection.items.find(x => x._id === itemIdToTest);
                 if (itemData.data.container?.contents) {
                     for (let content of itemData.data.container.contents) {
                         itemsToDelete.push(content.id);
@@ -242,12 +242,12 @@ export class ItemCollectionSheet extends BaseEntitySheet {
             }
         }
 
-        const newItems = this.itemCollection.data.flags.sfrpg.itemCollection.items.filter(x => !itemsToDelete.includes(x._id));
+        const newItems = this.itemCollection.data.flags.starpg.itemCollection.items.filter(x => !itemsToDelete.includes(x._id));
         const update = {
-            "flags.sfrpg.itemCollection.items": newItems
+            "flags.starpg.itemCollection.items": newItems
         }
 
-        if (newItems.length === 0 && this.itemCollection.data.flags.sfrpg.itemCollection.deleteIfEmpty) {
+        if (newItems.length === 0 && this.itemCollection.data.flags.starpg.itemCollection.deleteIfEmpty) {
             this.itemCollection.delete();
         } else {
             this.itemCollection.update(update);
@@ -255,11 +255,11 @@ export class ItemCollectionSheet extends BaseEntitySheet {
     }
 
     findItem(itemId) {
-        return this.itemCollection.data.flags.sfrpg.itemCollection.items.find(x => x._id === itemId);
+        return this.itemCollection.data.flags.starpg.itemCollection.items.find(x => x._id === itemId);
     }
 
     getItems() {
-        return this.itemCollection.data.flags.sfrpg.itemCollection.items;
+        return this.itemCollection.data.flags.starpg.itemCollection.items;
     }
     
     getChatData(itemData, htmlOptions) {
@@ -331,14 +331,14 @@ export class ItemCollectionSheet extends BaseEntitySheet {
   
     /** @override */
     _canDragStart(selector) {
-      return true; // flags.sfrpg.itemCollection.locked || game.user.isGM
+      return true; // flags.starpg.itemCollection.locked || game.user.isGM
     }
   
     /* -------------------------------------------- */
   
     /** @override */
     _canDragDrop(selector) {
-        return true; // flags.sfrpg.itemCollection.locked || game.user.isGM
+        return true; // flags.starpg.itemCollection.locked || game.user.isGM
     }
   
     /* -------------------------------------------- */
@@ -346,7 +346,7 @@ export class ItemCollectionSheet extends BaseEntitySheet {
     /** @override */
     _onDragStart(event) {
         const li = event.currentTarget;
-        const tokenData = this.entity.getFlag("sfrpg", "itemCollection");
+        const tokenData = this.entity.getFlag("starpg", "itemCollection");
 
         if (tokenData.locked && !game.user.isGM) {
             return;

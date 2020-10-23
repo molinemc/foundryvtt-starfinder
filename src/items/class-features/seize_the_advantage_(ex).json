@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.hIhgdXnqGHBm0A64]{Envoy Improvisation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl47_LabelName\">As a reaction, whenever you or one of your allies critically hits a creature, you can choose one ally within 60 feet of the target of the critical hit. The chosen ally can immediately attack the target creature with one weapon they’re currently wielding as a reaction. If they do, the chosen ally takes a −4 penalty to their attack roll and is staggered until the end of their next turn. Characters who can’t be staggered can’t benefit from this improvisation. Once you use this ability, you can’t use it again until after you regain Stamina Points following a 10-minute rest.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.hIhgdXnqGHBm0A64]{Envoy Improvisation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl47_LabelName\">As a reaction, whenever you or one of your allies critically hits a creature, you can choose one ally within 60 feet of the target of the critical hit. The chosen ally can immediately attack the target creature with one weapon they’re currently wielding as a reaction. If they do, the chosen ally takes a −4 penalty to their attack roll and is staggered until the end of their next turn. Characters who can’t be staggered can’t benefit from this improvisation. Once you use this ability, you can’t use it again until after you regain Stamina Points following a 10-minute rest.</span></p>",
       "chat": "",
       "unidentified": ""
     },

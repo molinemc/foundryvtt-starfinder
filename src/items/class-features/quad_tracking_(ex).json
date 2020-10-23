@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.cM54UpNXExgDSbq4]{Exocortex}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl06_LabelName\">Your exocortex can track four targets simultaneously, and hacking a nearby computer doesn&rsquo;t count against that limit.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.cM54UpNXExgDSbq4]{Exocortex}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl06_LabelName\">Your exocortex can track four targets simultaneously, and hacking a nearby computer doesn&rsquo;t count against that limit.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/quad_tracking.png"
+  "img": "systems/starpg/icons/classes/quad_tracking.png"
 }

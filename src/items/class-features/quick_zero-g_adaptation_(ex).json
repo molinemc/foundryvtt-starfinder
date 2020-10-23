@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.classes.uf8ADOAeBrtUkPVl]{Operative}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">You can quickly and easily adapt to the difficulties of operating in zero-g. You reduce the DC for any check required to move in zero-g by 5. In addition, when you use a move action to push off an object in zero-g, you move at your full land speed instead of at half.<br><br><strong>This replaces quick movement.</strong></span></p>",
+      "value": "<p>&gt;@Compendium[starpg.classes.uf8ADOAeBrtUkPVl]{Operative}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">You can quickly and easily adapt to the difficulties of operating in zero-g. You reduce the DC for any check required to move in zero-g by 5. In addition, when you use a move action to push off an object in zero-g, you move at your full land speed instead of at half.<br><br><strong>This replaces quick movement.</strong></span></p>",
       "chat": "",
       "unidentified": ""
     },

@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.sobLlAGQkmWcFBFx]{Magic Hack}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl04_LabelName\">When you cast a polymorph spell on a target with the shapechanger subtype and that target attempts to end your polymorph effect using its change shape ability, that foe must attempt a Will save. If the foe fails its Will save, it fails to transform into the form allowed by its change shape ability and can’t attempt to do so again for the rest of your polymorph spell’s duration.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.sobLlAGQkmWcFBFx]{Magic Hack}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl04_LabelName\">When you cast a polymorph spell on a target with the shapechanger subtype and that target attempts to end your polymorph effect using its change shape ability, that foe must attempt a Will save. If the foe fails its Will save, it fails to transform into the form allowed by its change shape ability and can’t attempt to do so again for the rest of your polymorph spell’s duration.</span></p>",
       "chat": "",
       "unidentified": ""
     },

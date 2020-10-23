@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.PU3uwrAcmGXMGo2n]{Specialization}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">You specialize in missions requiring courage and athleticism.<br><br></span></p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\"><strong>Associated Skills</strong>: Acrobatics and Athletics. You can attempt an Acrobatics check to make a trick attack.<br><strong>Specialization Exploit</strong>: @Compendium[sfrpg.class-features.qfdLaLl6DqIG0oyC]{Versatile Movement (Ex)}<br><strong>Terrain Attack (Ex)</strong>: At 11th level, when you and a foe are both balancing, climbing, flying, or swimming, you automatically succeed at any Bluff check required to make a trick attack against that foe.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.PU3uwrAcmGXMGo2n]{Specialization}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">You specialize in missions requiring courage and athleticism.<br><br></span></p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\"><strong>Associated Skills</strong>: Acrobatics and Athletics. You can attempt an Acrobatics check to make a trick attack.<br><strong>Specialization Exploit</strong>: @Compendium[starpg.class-features.qfdLaLl6DqIG0oyC]{Versatile Movement (Ex)}<br><strong>Terrain Attack (Ex)</strong>: At 11th level, when you and a foe are both balancing, climbing, flying, or swimming, you automatically succeed at any Bluff check required to make a trick attack against that foe.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/daredevil.png"
+  "img": "systems/starpg/icons/classes/daredevil.png"
 }

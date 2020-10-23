@@ -662,7 +662,7 @@
       "flags": {},
       "name": "Improved Combat Maneuver (Combat) (Grapple)",
       "type": "feat",
-      "img": "systems/sfrpg/icons/feats/improved_combat_maneuver.png",
+      "img": "systems/starpg/icons/feats/improved_combat_maneuver.png",
       "data": {
         "description": {
           "value": "<p>You are particularly skilled with a specific combat maneuver.<br><strong>Prerequisites</strong>: Base attack bonus +1.</p>\n<hr>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\"><strong>Benefit</strong>: Choose one combat maneuver (bull rush, dirty trick, disarm, grapple, reposition, sunder, or trip). You gain a +4 bonus to your attack roll to resolve that combat maneuver.<br></span></p>\n<p><span id=\"ctl00_MainContent_DataListTypes_ctl00_LabelName\"><strong>Special</strong>: You can take Improved Combat Maneuver multiple times. The effects don’t stack. Each time you take the feat, it applies to a new combat maneuver.</span></p>",
@@ -839,7 +839,7 @@
       "img": "icons/svg/mystery-man.svg",
       "data": {
         "description": {
-          "value": "<h3>(EX)</h3>\n<h3>If the creature hits with the indicated attack (usually a claw or bite attack), it deals the normal damage. If the creature’s attack roll successfully hits the target’s KAC + 4, the creature also automatically grapples the foe as a free action (see @Compendium[sfrpg.conditions.4AkWDHGM6gHDepHN]{Grappled}). (If it hits the target’s KAC + 13, it instead pins the target - see @Compendium[sfrpg.conditions.XgK4EdO5D3Fj3iWz]{Pinned}.) The creature does not need to have a spare limb free to perform this grapple, as long as it can make the listed attack, and it can potentially grapple more than one target if it has more than one attack with the grab ability. The creature can maintain the grab either with another successful grab attack or by performing the grapple combat maneuver normally.</h3>\n<hr>\n<h3>&nbsp;</h3>",
+          "value": "<h3>(EX)</h3>\n<h3>If the creature hits with the indicated attack (usually a claw or bite attack), it deals the normal damage. If the creature’s attack roll successfully hits the target’s KAC + 4, the creature also automatically grapples the foe as a free action (see @Compendium[starpg.conditions.4AkWDHGM6gHDepHN]{Grappled}). (If it hits the target’s KAC + 13, it instead pins the target - see @Compendium[starpg.conditions.XgK4EdO5D3Fj3iWz]{Pinned}.) The creature does not need to have a spare limb free to perform this grapple, as long as it can make the listed attack, and it can potentially grapple more than one target if it has more than one attack with the grab ability. The creature can maintain the grab either with another successful grab attack or by performing the grapple combat maneuver normally.</h3>\n<hr>\n<h3>&nbsp;</h3>",
           "chat": "",
           "unidentified": ""
         },

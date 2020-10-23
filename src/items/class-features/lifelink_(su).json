@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.v0UEjqjIg10jkGjk]{Healer}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">At the start of each turn, you can choose an ally within 30 feet who has taken Hit Point damage and transfer her wounds to yourself, dealing an amount of damage up to your mystic level to your Hit Points (bypassing any Stamina Points you may have) and healing the ally’s Hit Points an equal amount. This doesn’t require any action on your part. You can’t prevent or reduce the damage you take from lifelink.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.v0UEjqjIg10jkGjk]{Healer}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">At the start of each turn, you can choose an ally within 30 feet who has taken Hit Point damage and transfer her wounds to yourself, dealing an amount of damage up to your mystic level to your Hit Points (bypassing any Stamina Points you may have) and healing the ally’s Hit Points an equal amount. This doesn’t require any action on your part. You can’t prevent or reduce the damage you take from lifelink.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/lifelink.png"
+  "img": "systems/starpg/icons/classes/lifelink.png"
 }

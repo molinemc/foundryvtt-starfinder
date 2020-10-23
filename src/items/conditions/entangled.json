@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You are ensnared.</p>\n<p style=\"text-align: justify;\">Being entangled impedes your movement but does not entirely prevent you from moving unless the bonds are anchored to an immobile object or tethered by an opposing force.</p>\n<p style=\"text-align: justify;\">You move at half speed, you cannot run or charge, and you take a –2 penalty to your AC, attack rolls, Reflex saving throws, initiative checks, and Dexterity-based skill and ability checks.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You are ensnared.</p>\n<p style=\"text-align: justify;\">Being entangled impedes your movement but does not entirely prevent you from moving unless the bonds are anchored to an immobile object or tethered by an opposing force.</p>\n<p style=\"text-align: justify;\">You move at half speed, you cannot run or charge, and you take a –2 penalty to your AC, attack rolls, Reflex saving throws, initiative checks, and Dexterity-based skill and ability checks.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -138,7 +138,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/entangled.png",
+  "img": "systems/starpg/icons/conditions/entangled.png",
   "_id": "nFBcsp5FS1Wi46Fc",
   "sort": 1700000,
   "flags": {}

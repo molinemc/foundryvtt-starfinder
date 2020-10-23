@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.dE8h1C8gOUyzeS0J]{Epiphanies}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">&nbsp;When you cast a harmless spell with a range of touch, you can target any ally within 120 feet and linked by your telepathic bond class feature as if you were touching that ally. You must have the telepathic bond class feature to choose this epiphany.&nbsp;</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.dE8h1C8gOUyzeS0J]{Epiphanies}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">&nbsp;When you cast a harmless spell with a range of touch, you can target any ally within 120 feet and linked by your telepathic bond class feature as if you were touching that ally. You must have the telepathic bond class feature to choose this epiphany.&nbsp;</span></p>",
       "chat": "",
       "unidentified": ""
     },

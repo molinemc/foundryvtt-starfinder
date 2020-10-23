@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.Z1V1TmTxPhgur7n1]{Melophile}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">When you use your song of the spheres connection power, you can spend 1 Resolve Point to grant all affected allies the benefits of haste for the duration of your song of the spheres connection power. The Resolve Point cost of this connection power is in addition to any spell slots or Resolve Points expended to use the song of the spheres connection power.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.Z1V1TmTxPhgur7n1]{Melophile}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">When you use your song of the spheres connection power, you can spend 1 Resolve Point to grant all affected allies the benefits of haste for the duration of your song of the spheres connection power. The Resolve Point cost of this connection power is in addition to any spell slots or Resolve Points expended to use the song of the spheres connection power.</span></p>",
       "chat": "",
       "unidentified": ""
     },

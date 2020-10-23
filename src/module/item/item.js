@@ -195,7 +195,7 @@ export class ItemSFRPG extends Item {
 
         // Render the chat card template
         const templateType = ["tool", "consumable"].includes(this.data.type) ? this.data.type : "item";
-        const template = `systems/sfrpg/templates/chat/${templateType}-card.html`;
+        const template = `systems/starpg/templates/chat/${templateType}-card.html`;
         const html = await renderTemplate(template, templateData);
 
         // Basic chat message data
@@ -553,7 +553,7 @@ export class ItemSFRPG extends Item {
 
         // Define Critical threshold
         let crit = 20;
-        //if ( this.data.type === "weapon" ) crit = this.actor.getFlag("sfrpg", "weaponCriticalThreshold") || 20;
+        //if ( this.data.type === "weapon" ) crit = this.actor.getFlag("starpg", "weaponCriticalThreshold") || 20;
 
         // Define Roll Data
         const rollData = duplicate(actorData);
@@ -563,7 +563,7 @@ export class ItemSFRPG extends Item {
         itemData.hasCapacity = this.data.hasCapacity;
 
         rollData.item = itemData;
-        const title = game.settings.get('sfrpg', 'useCustomChatCard') ? `Attack Roll` : `Attack Roll - ${itemData.name}`;
+        const title = game.settings.get('starpg', 'useCustomChatCard') ? `Attack Roll` : `Attack Roll - ${itemData.name}`;
 
         //Warn the user if there is no ammo left
         const usage = itemData.data.usage?.value || 0;
@@ -752,7 +752,7 @@ export class ItemSFRPG extends Item {
         });
 
         let rollString = isHealing ? game.i18n.localize("SFRPG.ChatCard.HealingRoll") : game.i18n.localize("SFRPG.ChatCard.DamageRoll");
-        const title    = game.settings.get('sfrpg', 'useCustomChatCard') ? rollString : `${rollString} - ${this.data.name}`;
+        const title    = game.settings.get('starpg', 'useCustomChatCard') ? rollString : `${rollString} - ${this.data.name}`;
 
         // Call the roll helper utility
         return await DiceSFRPG.damageRoll({
@@ -961,7 +961,7 @@ export class ItemSFRPG extends Item {
             hasAttack: this.hasAttack,
             hasDamage: this.hasDamage,
             isVersatile: this.isVersatile,
-            template: "systems/sfrpg/templates/chat/tool-roll-dialog.html",
+            template: "systems/starpg/templates/chat/tool-roll-dialog.html",
             title: `${CONFIG.SFRPG.abilities[abl]} Check`,
             speaker: ChatMessage.getSpeaker({ actor: this.actor }),
             flavor: (parts, data) => `${this.name}`,

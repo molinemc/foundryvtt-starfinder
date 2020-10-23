@@ -8,9 +8,9 @@ export class TraitSelectorSFRPG extends FormApplication {
         const options = super.defaultOptions;
 
         options.id = "trait-selector";
-        options.classes = ["sfrpg"];
+        options.classes = ["starpg"];
         options.title = "Actor Trait Selection";
-        options.template = "systems/sfrpg/templates/apps/trait-selector.html";
+        options.template = "systems/starpg/templates/apps/trait-selector.html";
         options.width = 320;
         options.height = "auto";
 

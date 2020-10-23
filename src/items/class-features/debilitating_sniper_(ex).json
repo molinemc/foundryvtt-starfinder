@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.On2ZrPJTe8FURsXY]{Operative Exploit}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl24_LabelName\">You can use trick attack with sniper weapons. You do not add trick attack damage to your attack, but the target is still flatfooted, and you can use debilitating tricks.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.On2ZrPJTe8FURsXY]{Operative Exploit}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl24_LabelName\">You can use trick attack with sniper weapons. You do not add trick attack damage to your attack, but the target is still flatfooted, and you can use debilitating tricks.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/debilitating_sniper.png"
+  "img": "systems/starpg/icons/classes/debilitating_sniper.png"
 }

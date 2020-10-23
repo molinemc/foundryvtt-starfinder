@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.hIhgdXnqGHBm0A64]{Envoy Improvisation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl14_LabelName\">You can use spell gems as if you were a spellcaster. For purposes of using spell gems, you treat all spells on the mystic, technomancer, and witchwarper spell lists as your class’s spell list, and you use Charisma as your key ability score for your spellcasting. Your effective caster level for any spell gems you use is equal to your envoy level</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.hIhgdXnqGHBm0A64]{Envoy Improvisation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl14_LabelName\">You can use spell gems as if you were a spellcaster. For purposes of using spell gems, you treat all spells on the mystic, technomancer, and witchwarper spell lists as your class’s spell list, and you use Charisma as your key ability score for your spellcasting. Your effective caster level for any spell gems you use is equal to your envoy level</span></p>",
       "chat": "",
       "unidentified": ""
     },

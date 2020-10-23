@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.NsxuKKOs4oqxwngX]{Exergy}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Each foe within 30 feet must attempt a Fortitude saving throw. On a failed save, a creature takes an additional 1d6 damage per 2 vanguard levels from the next damaging attack that hits it within the next minute.<br><br><strong><em>Improved</em></strong>: The additional damage is 1d6 per vanguard level.<br></span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.NsxuKKOs4oqxwngX]{Exergy}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Each foe within 30 feet must attempt a Fortitude saving throw. On a failed save, a creature takes an additional 1d6 damage per 2 vanguard levels from the next damaging attack that hits it within the next minute.<br><br><strong><em>Improved</em></strong>: The additional damage is 1d6 per vanguard level.<br></span></p>",
       "chat": "",
       "unidentified": ""
     },

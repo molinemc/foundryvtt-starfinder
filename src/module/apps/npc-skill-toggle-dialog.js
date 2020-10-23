@@ -8,7 +8,7 @@
 export class NpcSkillToggleDialog extends Dialog {
     constructor(data = {}, options = {}) {
         super(data, options);
-        this.options.classes = ["sfrpg", "dialog"];
+        this.options.classes = ["starpg", "dialog"];
     }
 
     static get defaultOptions() {
@@ -35,7 +35,7 @@ export class NpcSkillToggleDialog extends Dialog {
             }
         }
 
-        const html = await renderTemplate("systems/sfrpg/templates/apps/npc-skill-toggle.html", {
+        const html = await renderTemplate("systems/starpg/templates/apps/npc-skill-toggle.html", {
             config: CONFIG.SFRPG,
             skillNames,
             skills

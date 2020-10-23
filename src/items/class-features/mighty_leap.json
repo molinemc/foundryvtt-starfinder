@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">When you use stunt and strike, you gain a fly speed equal to 30 feet or your base speed (whichever is less) with average maneuverability. If you aren’t on solid ground at the end of your turn, you fall.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">When you use stunt and strike, you gain a fly speed equal to 30 feet or your base speed (whichever is less) with average maneuverability. If you aren’t on solid ground at the end of your turn, you fall.</span></p>",
       "chat": "",
       "unidentified": ""
     },

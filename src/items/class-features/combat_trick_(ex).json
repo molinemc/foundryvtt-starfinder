@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.On2ZrPJTe8FURsXY]{Operative Exploit}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl02_LabelName\">You gain a bonus combat feat. You must meet all of that feat’s prerequisites.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.On2ZrPJTe8FURsXY]{Operative Exploit}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl02_LabelName\">You gain a bonus combat feat. You must meet all of that feat’s prerequisites.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/combat_trick.png"
+  "img": "systems/starpg/icons/classes/combat_trick.png"
 }

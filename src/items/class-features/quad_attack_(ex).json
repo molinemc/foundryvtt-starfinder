@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.classes.uf8ADOAeBrtUkPVl]{Operative}</p>\n<p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">When making a full attack using only melee weapons with the operative special property or small arms, you can make up to four attacks instead of two.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.classes.uf8ADOAeBrtUkPVl]{Operative}</p>\n<p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">When making a full attack using only melee weapons with the operative special property or small arms, you can make up to four attacks instead of two.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/quad_attack.png"
+  "img": "systems/starpg/icons/classes/quad_attack.png"
 }

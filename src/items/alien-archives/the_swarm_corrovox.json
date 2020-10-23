@@ -414,12 +414,12 @@
   },
   "sort": -2100000,
   "flags": {
-    "sfrpg": {
+    "starpg": {
       "conditions": []
     },
     "exportSource": {
       "world": "dev",
-      "system": "sfrpg",
+      "system": "starpg",
       "coreVersion": "0.6.6",
       "systemVersion": "0.4.1.0"
     }

@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.7GS83RMzWPMDx3LT]{Crusader}</p>\n<p>At the start of each turn, you can designate one ally within 30 feet of you as being under your protection. As a reaction when an attack hits the selected ally, you can make one melee or ranged attack against the enemy who made the attack. If your attack hits, it deals no damage, but that enemy gains the off-target condition until the end of their next turn.</p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.7GS83RMzWPMDx3LT]{Crusader}</p>\n<p>At the start of each turn, you can designate one ally within 30 feet of you as being under your protection. As a reaction when an attack hits the selected ally, you can make one melee or ranged attack against the enemy who made the attack. If your attack hits, it deals no damage, but that enemy gains the off-target condition until the end of their next turn.</p>",
       "chat": "",
       "unidentified": ""
     },

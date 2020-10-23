@@ -211,7 +211,7 @@ export default function (engine) {
         ]
     });
 
-    Hooks.callAll('sfrpg.registerRules', engine);
+    Hooks.callAll('starpg.registerRules', engine);
 
     console.log("SFRPG | Done registering rules");
 }

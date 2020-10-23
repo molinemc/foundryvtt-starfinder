@@ -1110,7 +1110,7 @@
       "flags": {},
       "name": "Charm Person (DC 18) (3/Day)",
       "type": "spell",
-      "img": "systems/sfrpg/icons/spells/charm_person.jpg",
+      "img": "systems/starpg/icons/spells/charm_person.jpg",
       "data": {
         "description": {
           "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target’s attitude as friendly). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus to its saving throw.<br></span></p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">The spell does not enable you to control the charmed creature as if it were an automaton. It is unlikely to attempt to harm you, but it is also unlikely to attack any of its true friends or allies. You can try to give the target suggestions, but you must succeed at an opposed Charisma check to convince it to do anything it wouldn’t ordinarily do. (Retries of this check are not allowed.) An affected creature never obeys suicidal or obviously harmful suggestions. Any act by you or your apparent allies that threatens the charmed creature breaks the spell. You must speak the creature’s language to communicate your suggestions, or else be good at pantomiming.</span></p>",
@@ -1408,7 +1408,7 @@
       "flags": {},
       "name": "Dancing Lights (At Will)",
       "type": "spell",
-      "img": "systems/sfrpg/icons/spells/dancing_light.png",
+      "img": "systems/starpg/icons/spells/dancing_light.png",
       "data": {
         "description": {
           "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">You create up to four lights that resemble small headlights or flashlights. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire: forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.<br></span></p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">You can have only one <em>dancing lights</em> spell active at a time. If you cast this spell while another casting is still in effect, the previous casting is dispelled.</span></p>",
@@ -1510,7 +1510,7 @@
       "flags": {},
       "name": "Life Bubble (At Will)",
       "type": "spell",
-      "img": "systems/sfrpg/icons/spells/life_bubble.png",
+      "img": "systems/starpg/icons/spells/life_bubble.png",
       "data": {
         "description": {
           "value": "<p style=\"text-align: justify;\">You surround the target creatures with a constant and movable 1-inch shell of tolerable living conditions customized for each creature. This shell enables the targets to breathe freely in a variety of atmospheric conditions (including in corrosive, thick, thin, and toxic atmospheres), as well as underwater or in a vacuum. It also makes the targets immune to harmful gases and vapors, including inhaled diseases and poisons as well as spells with a harmful gaseous effect. In addition, the shell protects targets (and their equipment) from extreme temperatures (between –50° and 140° F) without having to attempt Fortitude saving throws, as well as extreme pressures.<br><br>Life bubble&nbsp;doesn’t provide protection from energy damage, negative or positive energy (such as found on the Negative and Positive Energy Planes), or radiation; it also doesn’t provide the ability to see in conditions of poor visibility (such as in smoke or fog) or the ability to move or act normally in conditions that impede movement (such as underwater).</p>",
@@ -1612,7 +1612,7 @@
       "flags": {},
       "name": "Starknife, sintered, Holy, Tritidair",
       "type": "weapon",
-      "img": "systems/sfrpg/icons/equipment/weapons/starknife-sintered.jpg",
+      "img": "systems/starpg/icons/equipment/weapons/starknife-sintered.jpg",
       "data": {
         "description": {
           "value": "<p>Four tapered metal blades surround the central ring of a starknife, which can be thrown or used to stab opponents. Accelerated and lightspeed starknives have gas-powered jets that fire when the starknife is wielded. Solid auras surround the blades of a dimensional slice starknife, which are manufactured with cutting-edge metallurgic techniques. In a sintered starknife, the metal blades are replaced with compressed ceramic blades.</p>",

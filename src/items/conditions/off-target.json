@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">Your battle concentration is thrown off.</p>\n<p style=\"text-align: justify;\">You take a –2 penalty to attack rolls while off-target.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">Your battle concentration is thrown off.</p>\n<p style=\"text-align: justify;\">You take a –2 penalty to attack rolls while off-target.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -82,7 +82,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/offtarget.png",
+  "img": "systems/starpg/icons/conditions/offtarget.png",
   "_id": "yUtkoIshf4dPruNd",
   "sort": 2700000,
   "flags": {}

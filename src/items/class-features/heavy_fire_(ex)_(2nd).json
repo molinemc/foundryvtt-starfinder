@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.YHaMYdptLi3fXfVH]{Bombard}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">You can use your physical power to steady your weapon and make your attacks more dangerous. As a full action, you can make a single ranged attack that deals additional damage equal to your Strength bonus to all targets. You can use this ability in conjunction with the automatic, explode, or unwieldy special property (see pages 180–182).</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.YHaMYdptLi3fXfVH]{Bombard}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">You can use your physical power to steady your weapon and make your attacks more dangerous. As a full action, you can make a single ranged attack that deals additional damage equal to your Strength bonus to all targets. You can use this ability in conjunction with the automatic, explode, or unwieldy special property (see pages 180–182).</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/heavy_fire.png"
+  "img": "systems/starpg/icons/classes/heavy_fire.png"
 }

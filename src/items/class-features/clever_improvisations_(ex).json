@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.hIhgdXnqGHBm0A64]{Envoy Improvisation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl32_LabelName\">The first time you would spend Resolve Points on one of your envoy improvisations, reduce the cost by 1 Resolve Point (minimum 0). This ability refreshes whenever you take a 10-minute rest to recover Stamina Points and after an 8-hour rest to recover Resolve Points, reducing the Resolve Point cost of your next envoy improvisation after the rest.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.hIhgdXnqGHBm0A64]{Envoy Improvisation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl32_LabelName\">The first time you would spend Resolve Points on one of your envoy improvisations, reduce the cost by 1 Resolve Point (minimum 0). This ability refreshes whenever you take a 10-minute rest to recover Stamina Points and after an 8-hour rest to recover Resolve Points, reducing the Resolve Point cost of your next envoy improvisation after the rest.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/clever_improvisation.png"
+  "img": "systems/starpg/icons/classes/clever_improvisation.png"
 }

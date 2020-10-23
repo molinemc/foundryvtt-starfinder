@@ -459,7 +459,7 @@ async function onCreateItemCollection(message) {
         locked: true,
         disposition: 0,
         flags: {
-            "sfrpg": {
+            "starpg": {
                 "itemCollection": {
                     items: payload.itemData,
                     locked: payload.settings.locked,
@@ -474,7 +474,7 @@ async function onItemDraggedToCollection(message) {
     let data = message.payload;
 
     let target = ActorItemHelper.FromObject(data.target);
-    let items = target.token.data.flags.sfrpg.itemCollection.items;
+    let items = target.token.data.flags.starpg.itemCollection.items;
 
     let targetContainer = null;
     if (data.containerId) {
@@ -514,7 +514,7 @@ async function onItemDraggedToCollection(message) {
         }
         newItems = items.concat(newItems);
         const update = {
-            "flags.sfrpg.itemCollection.items": newItems
+            "flags.starpg.itemCollection.items": newItems
         }
         await target.token.update(update);
     }
@@ -575,11 +575,11 @@ async function onItemCollectionItemDraggedToPlayer(message) {
     }
 
     // Remove items from source token
-    let sourceItems = duplicate(source.token.data.flags.sfrpg.itemCollection.items);
+    let sourceItems = duplicate(source.token.data.flags.starpg.itemCollection.items);
     sourceItems = sourceItems.filter(x => !copiedItemIds.includes(x._id));
-    await source.token.update({"flags.sfrpg.itemCollection.items": sourceItems});
+    await source.token.update({"flags.starpg.itemCollection.items": sourceItems});
 
-    if (sourceItems.length === 0 && source.token.data.flags.sfrpg.itemCollection.deleteIfEmpty) {
+    if (sourceItems.length === 0 && source.token.data.flags.starpg.itemCollection.deleteIfEmpty) {
         await source.token.delete();
     }
 

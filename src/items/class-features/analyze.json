@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Whenever you attempt a Culture check as part of your stunt and strike and succeed, you can learn one of the following pieces of information about the target, plus one additional piece of information for every 5 by which your check’s result exceeds the DC: archetypes*, class*, class features*, first language, place of origin, spells known*, or training in a Profession skill. For items marked with an asterisk (*), if the target has more than one of these features, each one you discover counts as one piece of information.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Whenever you attempt a Culture check as part of your stunt and strike and succeed, you can learn one of the following pieces of information about the target, plus one additional piece of information for every 5 by which your check’s result exceeds the DC: archetypes*, class*, class features*, first language, place of origin, spells known*, or training in a Profession skill. For items marked with an asterisk (*), if the target has more than one of these features, each one you discover counts as one piece of information.</span></p>",
       "chat": "",
       "unidentified": ""
     },

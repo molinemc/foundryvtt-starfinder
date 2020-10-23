@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">If your stunt and strike skill check and attack roll both succeed and your attack is made with a weapon that targets an area (such as a weapon with the automatic, blast, explode, flexible line, or line properties), you can select a number of squares up to your Dexterity modifier and remove them from the affected area.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.wk7Xp5wzUdELgTel]{Stunt and Strike (Ex)}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">If your stunt and strike skill check and attack roll both succeed and your attack is made with a weapon that targets an area (such as a weapon with the automatic, blast, explode, flexible line, or line properties), you can select a number of squares up to your Dexterity modifier and remove them from the affected area.</span></p>",
       "chat": "",
       "unidentified": ""
     },

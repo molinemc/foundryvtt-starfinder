@@ -11,14 +11,14 @@ export class RPC {
 
     _initialize() {
         if (!this.initialized) {
-            game.socket.on('system.sfrpg', (data) => {
+            game.socket.on('system.starpg', (data) => {
                 RPC.rpc._handleMessage(data);
             });
             this.initialized = true;
 
             if (this.messageBuffer.length > 0) {
                 for (let messageData of this.messageBuffer) {
-                    game.socket.emit('system.sfrpg', messageData);
+                    game.socket.emit('system.starpg', messageData);
                 }
                 this.messageBuffer = null;
             }
@@ -38,7 +38,7 @@ export class RPC {
         }
 
         if (this.initialized) {
-            game.socket.emit('system.sfrpg', messageData);
+            game.socket.emit('system.starpg', messageData);
         } else {
             this.messageBuffer.push(messageData);
         }
@@ -69,7 +69,7 @@ export class RPC {
         }
 
         if (this.initialized) {
-            game.socket.emit('system.sfrpg', messageData);
+            game.socket.emit('system.starpg', messageData);
         } else {
             this.messageBuffer.push(messageData);
         }

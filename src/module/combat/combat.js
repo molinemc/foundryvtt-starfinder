@@ -42,8 +42,8 @@ Vehicle has the following 3 phases: "Pilot Actions", "Chase Progress", and "Comb
 export class CombatSFRPG extends Combat {
     async begin() {
         const update = {
-            "flags.sfrpg.combatType": this.getCombatType(),
-            "flags.sfrpg.phase": 0
+            "flags.starpg.combatType": this.getCombatType(),
+            "flags.starpg.phase": 0
         };
     
         await this.update(update);
@@ -111,7 +111,7 @@ export class CombatSFRPG extends Combat {
         }
         
         let nextRound = this.round;
-        let nextPhase = this.data.flags.sfrpg.phase;
+        let nextPhase = this.data.flags.starpg.phase;
         let nextTurn = this.turn - 1;
 
         const currentPhase = this.getCurrentPhase();
@@ -147,7 +147,7 @@ export class CombatSFRPG extends Combat {
             }
         }
 
-        if (nextPhase !== this.data.flags.sfrpg.phase || nextRound !== this.round) {
+        if (nextPhase !== this.data.flags.starpg.phase || nextRound !== this.round) {
             const newPhase = this.getPhases()[nextPhase];
             if (newPhase.iterateTurns) {
                 nextTurn = this.getIndexOfLastUndefeatedCombatant();
@@ -163,11 +163,11 @@ export class CombatSFRPG extends Combat {
         }
         
         let nextRound = this.round;
-        let nextPhase = this.data.flags.sfrpg.phase;
+        let nextPhase = this.data.flags.starpg.phase;
         let nextTurn = this.turn + 1;
 
         const phases = this.getPhases();
-        const currentPhase = phases[this.data.flags.sfrpg.phase];
+        const currentPhase = phases[this.data.flags.starpg.phase];
         if (currentPhase.resetInitiative && this.hasCombatantsWithoutInitiative()) {
             ui.notifications.error(game.i18n.format(CombatSFRPG.errors.missingInitiative), {permanent: false});
             return;
@@ -199,7 +199,7 @@ export class CombatSFRPG extends Combat {
             nextTurn = 0;
         }
 
-        if (nextPhase !== this.data.flags.sfrpg.phase) {
+        if (nextPhase !== this.data.flags.starpg.phase) {
             const newPhase = phases[nextPhase];
             if (newPhase.iterateTurns) {
                 nextTurn = this.getIndexOfFirstUndefeatedCombatant();
@@ -220,7 +220,7 @@ export class CombatSFRPG extends Combat {
         let nextPhase = 0;
         let nextTurn = 0;
 
-        if (this.data.flags.sfrpg.phase === 0 && this.turn <= indexOfFirstUndefeatedCombatant) {
+        if (this.data.flags.starpg.phase === 0 && this.turn <= indexOfFirstUndefeatedCombatant) {
             nextRound = Math.max(1, this.round - 1);
         }
 
@@ -259,13 +259,13 @@ export class CombatSFRPG extends Combat {
 
     async _handleUpdate(nextRound, nextPhase, nextTurn) {
         const phases = this.getPhases();
-        const currentPhase = phases[this.data.flags.sfrpg.phase];
+        const currentPhase = phases[this.data.flags.starpg.phase];
         const newPhase = phases[nextPhase];
 
         const eventData = {
             combat: this,
             isNewRound: nextRound != this.round,
-            isNewPhase: nextRound != this.round || nextPhase != this.data.flags.sfrpg.phase,
+            isNewPhase: nextRound != this.round || nextPhase != this.data.flags.starpg.phase,
             isNewTurn: (nextRound != this.round && phases[nextPhase].iterateTurns) || nextTurn != this.turn,
             oldRound: this.round,
             newRound: nextRound,
@@ -283,7 +283,7 @@ export class CombatSFRPG extends Combat {
 
         const updateData = {
             round: nextRound,
-            "flags.sfrpg.phase": nextPhase,
+            "flags.starpg.phase": nextPhase,
             turn: nextTurn
         };
 
@@ -306,7 +306,7 @@ export class CombatSFRPG extends Combat {
     async _notifyBeforeUpdate(eventData) {
         //console.log(["_notifyBeforeUpdate", eventData]);
         //console.log([isNewRound, isNewPhase, isNewTurn]);
-        //console.log([this.round, this.data.flags.sfrpg.phase, this.turn]);
+        //console.log([this.round, this.data.flags.starpg.phase, this.turn]);
 
         Hooks.callAll("onBeforeUpdateCombat", eventData);
     }
@@ -314,7 +314,7 @@ export class CombatSFRPG extends Combat {
     async _notifyAfterUpdate(eventData) {
         //console.log(["_notifyAfterUpdate", eventData]);
         //console.log([isNewRound, isNewPhase, isNewTurn]);
-        //console.log([this.round, this.data.flags.sfrpg.phase, this.turn]);
+        //console.log([this.round, this.data.flags.starpg.phase, this.turn]);
 
         if (eventData.isNewRound) {
             //console.log(`Starting new round! New phase is ${eventData.newPhase.name}, it is now the turn of: ${eventData.newCombatant?.name || "the GM"}!`);
@@ -355,7 +355,7 @@ export class CombatSFRPG extends Combat {
         };
 
         // Render the chat card template
-        const template = `systems/sfrpg/templates/chat/combat-card.html`;
+        const template = `systems/starpg/templates/chat/combat-card.html`;
         const html = await renderTemplate(template, templateData);
 
         // Create the chat message
@@ -393,7 +393,7 @@ export class CombatSFRPG extends Combat {
         };
 
         // Render the chat card template
-        const template = `systems/sfrpg/templates/chat/combat-card.html`;
+        const template = `systems/starpg/templates/chat/combat-card.html`;
         const html = await renderTemplate(template, templateData);
 
         // Create the chat message
@@ -431,7 +431,7 @@ export class CombatSFRPG extends Combat {
         };
 
         // Render the chat card template
-        const template = `systems/sfrpg/templates/chat/combat-card.html`;
+        const template = `systems/starpg/templates/chat/combat-card.html`;
         const html = await renderTemplate(template, templateData);
 
         // Create the chat message
@@ -445,7 +445,7 @@ export class CombatSFRPG extends Combat {
     }
 
     getCombatType() {
-        return this.data.flags?.sfrpg?.combatType || "normal";
+        return this.data.flags?.starpg?.combatType || "normal";
     }
 
     getCombatName() {
@@ -473,7 +473,7 @@ export class CombatSFRPG extends Combat {
     }
 
     getCurrentPhase() {
-        return this.getPhases()[this.data.flags?.sfrpg?.phase || 0];
+        return this.getPhases()[this.data.flags?.starpg?.phase || 0];
     }
 
     hasCombatantsWithoutInitiative() {
@@ -543,14 +543,14 @@ export class CombatSFRPG extends Combat {
     }
 
     _getPilotForStarship(starshipActor) {
-        if (!starshipActor?.data?.flags?.sfrpg?.shipsCrew?.members) {
+        if (!starshipActor?.data?.flags?.starpg?.shipsCrew?.members) {
             return null;
         }
 
-        for (let crewId of starshipActor.data.flags.sfrpg.shipsCrew.members) {
+        for (let crewId of starshipActor.data.flags.starpg.shipsCrew.members) {
             let crewActor = game.actors.entries.find((x) => x._id === crewId);
             if (crewActor) {
-                if (crewActor.data.flags.sfrpg.crewMember.role === "pilot") {
+                if (crewActor.data.flags.starpg.crewMember.role === "pilot") {
                     return crewActor;
                 }
             }
@@ -571,13 +571,13 @@ export class CombatSFRPG extends Combat {
 }
 
 async function onConfigClicked(combat, direction) {
-    const combatType = combat.data.flags?.sfrpg?.combatType || "normal";
+    const combatType = combat.data.flags?.starpg?.combatType || "normal";
     const types = ["normal", "starship", "vehicleChase"];
     const indexOf = types.indexOf(combatType);
     const wrappedIndex = (types.length + indexOf + direction) % types.length;
     
     const update = {
-        "flags.sfrpg.combatType": types[wrappedIndex]
+        "flags.starpg.combatType": types[wrappedIndex]
     };
     await combat.update(update);
 }

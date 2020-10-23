@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl49_LabelName\">Your mastery of photonic energy has developed to such an extent that it flows from you in elegant, rapid patterns. Any photon revelation you have that can be used only once before taking a 10-minute rest to regain Stamina Points can now be used up to three times before taking such a rest.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl49_LabelName\">Your mastery of photonic energy has developed to such an extent that it flows from you in elegant, rapid patterns. Any photon revelation you have that can be used only once before taking a 10-minute rest to regain Stamina Points can now be used up to three times before taking such a rest.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/images/cup/gameplay/photon.png"
+  "img": "systems/starpg/images/cup/gameplay/photon.png"
 }

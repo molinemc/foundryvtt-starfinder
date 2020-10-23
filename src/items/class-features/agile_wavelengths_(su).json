@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl02_LabelName\">You have developed a technique to conduct maneuvers on the battlefield at range with your solar flare. You can attempt combat maneuvers as a ranged attack instead of a melee attack, with a range of 30 feet. Any weapon special properties your solar flare has that would affect certain combat maneuvers apply as normal. While attuned or fully attuned, you gain a +2 insight bonus to combat maneuvers attempted at range using this stellar revelation. You must have a solar flare to select this stellar revelation.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl02_LabelName\">You have developed a technique to conduct maneuvers on the battlefield at range with your solar flare. You can attempt combat maneuvers as a ranged attack instead of a melee attack, with a range of 30 feet. Any weapon special properties your solar flare has that would affect certain combat maneuvers apply as normal. While attuned or fully attuned, you gain a +2 insight bonus to combat maneuvers attempted at range using this stellar revelation. You must have a solar flare to select this stellar revelation.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/images/cup/gameplay/graviton.png"
+  "img": "systems/starpg/images/cup/gameplay/graviton.png"
 }

@@ -744,7 +744,7 @@
       "flags": {},
       "name": "Plasma pistol, red star",
       "type": "weapon",
-      "img": "systems/sfrpg/icons/equipment/weapons/plasma-pistol-red-star.jpg",
+      "img": "systems/starpg/icons/equipment/weapons/plasma-pistol-red-star.jpg",
       "data": {
         "description": {
           "value": "<p>Plasma pistols fire a line of ionized plasma out to a relatively short range. The plasma can continue to burn after contact.</p>",
@@ -937,10 +937,10 @@
       "flags": {},
       "name": "Flashing Strikes (Ex)",
       "type": "feat",
-      "img": "systems/sfrpg/icons/classes/flashing_strikes.png",
+      "img": "systems/starpg/icons/classes/flashing_strikes.png",
       "data": {
         "description": {
-          "value": "<p>&gt;<a class=\"entity-link\" data-pack=\"sfrpg.classes\" data-id=\"kuEdVbzv5zXIO4wk\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Solarian</a></p>\n        <p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">Your mastery of melee combat allows you to make multiple attacks more accurately. When making a full attack entirely with melee weapons, you take a –3 penalty to each attack roll instead of the normal –4 penalty.</span></p>",
+          "value": "<p>&gt;<a class=\"entity-link\" data-pack=\"starpg.classes\" data-id=\"kuEdVbzv5zXIO4wk\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Solarian</a></p>\n        <p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">Your mastery of melee combat allows you to make multiple attacks more accurately. When making a full attack entirely with melee weapons, you take a –3 penalty to each attack roll instead of the normal –4 penalty.</span></p>",
           "chat": "",
           "unidentified": ""
         },
@@ -1078,10 +1078,10 @@
       "flags": {},
       "name": "Solar Manifestation (Su)",
       "type": "feat",
-      "img": "systems/sfrpg/icons/classes/solar_manifestation.png",
+      "img": "systems/starpg/icons/classes/solar_manifestation.png",
       "data": {
         "description": {
-          "value": "<p>&gt;<a class=\"entity-link\" data-pack=\"sfrpg.classes\" data-id=\"kuEdVbzv5zXIO4wk\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Solarian</a></p>\n        <p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">At 1st level, you gain a physical manifestation of your stellar power. The base form of your solar manifestation, when not actively in use, is a mote of stellar energy slightly smaller than your fist that hovers near your head. Beyond the solar mote, your manifestation can take one of two additional forms: armor or a weapon. You must pick one solar manifestation (either armor or a weapon) upon taking your first level of solarian. You also choose whether your solar manifestation (in any form) either glows brightly with one color common to stars (including blue, red, white, or yellow) or is the perfect darkness of a black hole. A glowing solar manifestation, regardless of its form, sheds dim light in a 20-foot radius. You can shut off the light or darkness as a standard action in order to blend in or assist in stealth, but whenever you enter a stellar mode (see page 102), the glow or darkness returns immediately. Once made, these choices cannot be changed. <br><br>Only you can interact with your solar manifestation, whether in mote, armor, or weapon form. No other creature or effect can affect your solar manifestation in any way, including disarming or sundering it.</span></p>\n        <h3><a class=\"entity-link\" data-pack=\"sfrpg.class-features\" data-id=\"zM7oc1qiNLAPoH1J\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Solar Armor</a></h3>\n        <h3><a class=\"entity-link\" data-pack=\"sfrpg.class-features\" data-id=\"WWHUAfgpvk6uIgY0\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Solar Weapon</a></h3>",
+          "value": "<p>&gt;<a class=\"entity-link\" data-pack=\"starpg.classes\" data-id=\"kuEdVbzv5zXIO4wk\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Solarian</a></p>\n        <p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">At 1st level, you gain a physical manifestation of your stellar power. The base form of your solar manifestation, when not actively in use, is a mote of stellar energy slightly smaller than your fist that hovers near your head. Beyond the solar mote, your manifestation can take one of two additional forms: armor or a weapon. You must pick one solar manifestation (either armor or a weapon) upon taking your first level of solarian. You also choose whether your solar manifestation (in any form) either glows brightly with one color common to stars (including blue, red, white, or yellow) or is the perfect darkness of a black hole. A glowing solar manifestation, regardless of its form, sheds dim light in a 20-foot radius. You can shut off the light or darkness as a standard action in order to blend in or assist in stealth, but whenever you enter a stellar mode (see page 102), the glow or darkness returns immediately. Once made, these choices cannot be changed. <br><br>Only you can interact with your solar manifestation, whether in mote, armor, or weapon form. No other creature or effect can affect your solar manifestation in any way, including disarming or sundering it.</span></p>\n        <h3><a class=\"entity-link\" data-pack=\"starpg.class-features\" data-id=\"zM7oc1qiNLAPoH1J\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Solar Armor</a></h3>\n        <h3><a class=\"entity-link\" data-pack=\"starpg.class-features\" data-id=\"WWHUAfgpvk6uIgY0\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Solar Weapon</a></h3>",
           "chat": "",
           "unidentified": ""
         },
@@ -1222,7 +1222,7 @@
       "flags": {},
       "name": "Estex Suit III",
       "type": "equipment",
-      "img": "systems/sfrpg/icons/equipment/armor/estex-suit-3.jpg",
+      "img": "systems/starpg/icons/equipment/armor/estex-suit-3.jpg",
       "data": {
         "description": {
           "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Estex is a thick, durable fabric most often used to make flight suits and environmental suits. Estex suits cover the wearer from the neck down and can be modified with armor upgrades as needed. Higher-quality estex suits grant a better level of protection and allow for more upgrades, though they are often bulkier than comparable suits of light armor.&nbsp;</span></p>",
@@ -1312,7 +1312,7 @@
       "flags": {},
       "name": "Battery, Standard",
       "type": "goods",
-      "img": "systems/sfrpg/icons/equipment/weapons/battery-standard.jpg",
+      "img": "systems/starpg/icons/equipment/weapons/battery-standard.jpg",
       "data": {
         "description": {
           "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Batteries charge powered weapons, but they can also be used to power an array of items, including powered armor and technological items. Batteries have a standardized size and weight, and items that take batteries all have a slot into which they fit, regardless of the item’s actual size. Weapons that use batteries list the highest-capacity battery they are capable of using as well as how many charges from the battery that each shot consumes.&nbsp;</span></p>\n<p><strong>Capacity:</strong> 20</p>",
@@ -1338,7 +1338,7 @@
       "flags": {},
       "name": "Battery, High-Capacity",
       "type": "goods",
-      "img": "systems/sfrpg/icons/equipment/weapons/battery-high-capacity.jpg",
+      "img": "systems/starpg/icons/equipment/weapons/battery-high-capacity.jpg",
       "data": {
         "description": {
           "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Batteries charge powered weapons, but they can also be used to power an array of items, including powered armor and technological items. Batteries have a standardized size and weight, and items that take batteries all have a slot into which they fit, regardless of the item&rsquo;s actual size. Weapons that use batteries list the highest-capacity battery they are capable of using as well as how many charges from the battery that each shot consumes.&nbsp;</span></p>\n<p><strong>Capacity:</strong> 40</p>",

@@ -65,7 +65,7 @@ export default class CounterManagement {
                         if (game.combat.data.round > this.currentRound[c._id] || !this.currentRound[c._id]) {
                             this.addOneToCounterForActiveActor(c, currentClasses);
                         }
-                        $combatant.find('.token-image').after("<div class='counter-token-management'><div class='counter-token'><p>"+this.getCurrentCounter(currentClasses)+"</p><img id='counter-token-image-"+c._id+"' class='counter-token-image' data-actor-id='"+c.actor._id+"' data-actor-classe='"+currentClasses+"' src='systems/sfrpg/icons/classes/"+this.getCurrentClassesOrPosition(currentClasses)+".png' /></div></div>");
+                        $combatant.find('.token-image').after("<div class='counter-token-management'><div class='counter-token'><p>"+this.getCurrentCounter(currentClasses)+"</p><img id='counter-token-image-"+c._id+"' class='counter-token-image' data-actor-id='"+c.actor._id+"' data-actor-classe='"+currentClasses+"' src='systems/starpg/icons/classes/"+this.getCurrentClassesOrPosition(currentClasses)+".png' /></div></div>");
 
                         //Display the dialogue box to manage the right class
                         let solarianPosition = html.find('#counter-token-image-'+c._id);
@@ -218,10 +218,10 @@ export default class CounterManagement {
             'classesToManage':[]
         };
 
-        if (typeof c.actor.data.flags.sfrpg !== "undefined") {
+        if (typeof c.actor.data.flags.starpg !== "undefined") {
             //Only check for actor with the activated feature
-            if (c.actor.data.flags.sfrpg) {
-                let activeFeature = c.actor.data.flags.sfrpg;
+            if (c.actor.data.flags.starpg) {
+                let activeFeature = c.actor.data.flags.starpg;
 
                 for (let [key, name] of Object.entries(this.existingFeature)) {
                     if (activeFeature.hasOwnProperty(name)) {

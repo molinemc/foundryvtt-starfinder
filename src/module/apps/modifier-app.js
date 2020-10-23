@@ -21,8 +21,8 @@ export default class SFRPGModifierApplication extends FormApplication {
 
         return mergeObject(options, {
             id: 'modifier-app',
-            classes: ['sfrpg', 'modifier-app'],
-            template: "systems/sfrpg/templates/apps/modifier-app.html",
+            classes: ['starpg', 'modifier-app'],
+            template: "systems/starpg/templates/apps/modifier-app.html",
             width: 400,
             height: 'auto',
             closeOnSubmit: true

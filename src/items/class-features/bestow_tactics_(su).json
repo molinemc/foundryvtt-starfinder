@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.7NxgC9bTcFZkPXY6]{Warmonger}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">As a move action, you can choose one ally within 30 feet and spend 1 Resolve Point. That ally gains the ability to take a guarded step without spending an action at the beginning or end of its turn, a +4 enhancement bonus to its KAC against combat maneuvers, and a number of temporary Hit Points equal to your mystic level. These benefits last 1 minute.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.7NxgC9bTcFZkPXY6]{Warmonger}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">As a move action, you can choose one ally within 30 feet and spend 1 Resolve Point. That ally gains the ability to take a guarded step without spending an action at the beginning or end of its turn, a +4 enhancement bonus to its KAC against combat maneuvers, and a number of temporary Hit Points equal to your mystic level. These benefits last 1 minute.</span></p>",
       "chat": "",
       "unidentified": ""
     },

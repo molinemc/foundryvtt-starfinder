@@ -5,7 +5,7 @@
 export class AddEditSkillDialog extends Dialog {
     constructor(skill, dialogData={}, options={}) {
         super(dialogData, options);
-        this.options.classes = ["sfrpg", "dialog"];
+        this.options.classes = ["starpg", "dialog"];
 
         /**
          * Store a reference to the skill being edited
@@ -31,7 +31,7 @@ export class AddEditSkillDialog extends Dialog {
      */
     static async create(skillId, skill, isEdit = true, isNpc = false, isOwner = false) {
         let hasSubName = typeof skill.subname !== "undefined" || !isEdit;
-        const html = await renderTemplate("systems/sfrpg/templates/apps/add-edit-skill.html", {
+        const html = await renderTemplate("systems/starpg/templates/apps/add-edit-skill.html", {
             skill: skill,
             hasSubName,
             config: CONFIG.SFRPG,

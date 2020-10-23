@@ -65,7 +65,7 @@ export class ActorSFRPG extends Actor {
         const mods = items.filter(item => item.type === "mod");
         const armorUpgrades = items.filter(item => item.type === "upgrade");
         const asis = items.filter(item => item.type === "asi");
-        game.sfrpg.engine.process("process-actors", {
+        game.starpg.engine.process("process-actors", {
             data,
             armor,
             weapons,
@@ -470,7 +470,7 @@ export class ActorSFRPG extends Actor {
             actor: this,
             parts: parts,
             data: data,
-            flavor: game.settings.get('sfrpg', 'useCustomChatCard') ? `${label}` : `Ability Check - ${label}`,
+            flavor: game.settings.get('starpg', 'useCustomChatCard') ? `${label}` : `Ability Check - ${label}`,
             title:  `Ability Check`,
             speaker: ChatMessage.getSpeaker({ actor: this })
         });
@@ -502,7 +502,7 @@ export class ActorSFRPG extends Actor {
             parts: parts,
             data: data,
             title: `Save`,
-            flavor: game.settings.get('sfrpg', 'useCustomChatCard') ? `${label}` : `Save - ${label}`,
+            flavor: game.settings.get('starpg', 'useCustomChatCard') ? `${label}` : `Save - ${label}`,
             speaker: ChatMessage.getSpeaker({ actor: this })
         });
     }
@@ -524,7 +524,7 @@ export class ActorSFRPG extends Actor {
             parts: parts,
             data: data,
             title: 'Skill Check',
-            flavor: game.settings.get('sfrpg', 'useCustomChatCard') ? `${CONFIG.SFRPG.skills[skillId.substring(0, 3)]}`: `Skill Check - ${CONFIG.SFRPG.skills[skillId.substring(0, 3)]}`,
+            flavor: game.settings.get('starpg', 'useCustomChatCard') ? `${CONFIG.SFRPG.skills[skillId.substring(0, 3)]}`: `Skill Check - ${CONFIG.SFRPG.skills[skillId.substring(0, 3)]}`,
             speaker: ChatMessage.getSpeaker({ actor: this })
         });
     }
@@ -694,11 +694,11 @@ export class ActorSFRPG extends Actor {
     }
 
     async removeFromCrew() {
-        await this.unsetFlag('sfrpg', 'crewMember');
+        await this.unsetFlag('starpg', 'crewMember');
     }
 
     async setCrewMemberRole(shipId, role) {
-        return this.setFlag('sfrpg', 'crewMember', {
+        return this.setFlag('starpg', 'crewMember', {
             shipId: shipId,
             role: role
         });

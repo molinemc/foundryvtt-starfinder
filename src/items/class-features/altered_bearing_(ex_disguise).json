@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.DR8JvF0xiwsXggxj]{Expertise Talent}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl01_LabelName\">You can quickly adjust your posture, your stride, your demeanor, and the way your clothes and gear fit, causing casual observers to fail to recognize your true appearance. When you attempt a Disguise check to alter minor details of your appearance, you can forgo your expertise die to attempt the check as a move action. You don’t reduce the DC by 5 for attempting to alter only minor details, and if an observer succeeds at an opposed Perception check that pierces your disguise, he also realizes your true race and what features you have disguised. You can’t use this ability for more complex disguises.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.DR8JvF0xiwsXggxj]{Expertise Talent}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl01_LabelName\">You can quickly adjust your posture, your stride, your demeanor, and the way your clothes and gear fit, causing casual observers to fail to recognize your true appearance. When you attempt a Disguise check to alter minor details of your appearance, you can forgo your expertise die to attempt the check as a move action. You don’t reduce the DC by 5 for attempting to alter only minor details, and if an observer succeeds at an opposed Perception check that pierces your disguise, he also realizes your true race and what features you have disguised. You can’t use this ability for more complex disguises.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/altered_bearing.png"
+  "img": "systems/starpg/icons/classes/altered_bearing.png"
 }

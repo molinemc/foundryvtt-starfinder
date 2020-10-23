@@ -27,7 +27,7 @@
 export class InputDialog extends Dialog {
     constructor(inputData, dialogData={}, options={}) {
         super(dialogData, options);
-        this.options.classes = ["sfrpg", "dialog"];
+        this.options.classes = ["starpg", "dialog"];
 
         this.inputData = inputData;
     }
@@ -81,7 +81,7 @@ export class InputDialog extends Dialog {
             InputDialog.values[key].value = InputDialog.values[key].placeholder;
         }
 
-        const html = await renderTemplate("systems/sfrpg/templates/apps/input-dialog.html", {
+        const html = await renderTemplate("systems/starpg/templates/apps/input-dialog.html", {
             message: message,
             inputs: inputData
         });

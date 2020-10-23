@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">&gt;@Compendium[sfrpg.classes.cCZQpV0NmYE9qZoL]{Soldier}</span></p>\n<p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">At 9th level and every 4 levels thereafter, you gain a style technique unique to your secondary fighting style. For the purposes of these style techniques, treat your soldier level as equal to your soldier level – 8.</span></p>",
+      "value": "<p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">&gt;@Compendium[starpg.classes.cCZQpV0NmYE9qZoL]{Soldier}</span></p>\n<p><span id=\"ctl00_MainContent_DataListClasses_ctl00_LabelName\">At 9th level and every 4 levels thereafter, you gain a style technique unique to your secondary fighting style. For the purposes of these style techniques, treat your soldier level as equal to your soldier level – 8.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/secondary_style_technique.png"
+  "img": "systems/starpg/icons/classes/secondary_style_technique.png"
 }

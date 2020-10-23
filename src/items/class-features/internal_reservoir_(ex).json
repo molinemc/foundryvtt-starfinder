@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.Dysu4F8licjEb2FY]{Vanguard Discipline}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">When you take a 10-minute rest, even if you do not recover Stamina Points, you gain 1 Entropy Point which lasts until it is spent or you take another 10-minute rest. Additionally, your maximum number of Entropy Points increases by 2.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.Dysu4F8licjEb2FY]{Vanguard Discipline}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">When you take a 10-minute rest, even if you do not recover Stamina Points, you gain 1 Entropy Point which lasts until it is spent or you take another 10-minute rest. Additionally, your maximum number of Entropy Points increases by 2.</span></p>",
       "chat": "",
       "unidentified": ""
     },

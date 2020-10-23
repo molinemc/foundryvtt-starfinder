@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.On2ZrPJTe8FURsXY]{Operative Exploit}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl16_LabelName\">Once per day as a standard action, you can quickly change your appearance. This functions as <em>disguise self</em> and lasts for 1 minute per operative level. You can use this exploit an additional time per day at 6th level, and again at 10th level.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.On2ZrPJTe8FURsXY]{Operative Exploit}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl16_LabelName\">Once per day as a standard action, you can quickly change your appearance. This functions as <em>disguise self</em> and lasts for 1 minute per operative level. You can use this exploit an additional time per day at 6th level, and again at 10th level.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/quick_disguise.png"
+  "img": "systems/starpg/icons/classes/quick_disguise.png"
 }

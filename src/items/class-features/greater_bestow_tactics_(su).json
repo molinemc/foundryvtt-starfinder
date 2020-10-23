@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">&gt;@Compendium[sfrpg.class-features.7NxgC9bTcFZkPXY6]{Warmonger}</span></p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Whenever you use your bestow tactics connection power, all allies within 30 feet gain its benefits for 1 minute. Alternatively you may grant it to a single ally as part of any other action.</span></p>",
+      "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">&gt;@Compendium[starpg.class-features.7NxgC9bTcFZkPXY6]{Warmonger}</span></p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">Whenever you use your bestow tactics connection power, all allies within 30 feet gain its benefits for 1 minute. Alternatively you may grant it to a single ally as part of any other action.</span></p>",
       "chat": "",
       "unidentified": ""
     },

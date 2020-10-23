@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.sobLlAGQkmWcFBFx]{Magic Hack}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl33_LabelName\">You can spend 1 Resolve Point to store a spell with a range of touch in a grenade, allowing you to affect a target within the grenade’s blast radius with the spell. Casting a spell with spell grenade uses the spell’s standard casting time, and throwing the spell grenade is a standard action. You must throw the grenade before the end of your next turn, or the spell is wasted. You are considered proficient with the grenade for this attack. Choose a single target within the grenade’s blast radius; that target is affected by the spell as if you had successfully touched it. The grenade goes off as normal, with all of its usual effects within its blast radius. If you miss the targeted intersection with the grenade, you must choose a target within the grenade’s new blast radius. If there are no suitable targets within the grenade’s blast radius, the spell is wasted. Spells whose ranges are not touch don’t benefit from this magic hack.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.sobLlAGQkmWcFBFx]{Magic Hack}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl33_LabelName\">You can spend 1 Resolve Point to store a spell with a range of touch in a grenade, allowing you to affect a target within the grenade’s blast radius with the spell. Casting a spell with spell grenade uses the spell’s standard casting time, and throwing the spell grenade is a standard action. You must throw the grenade before the end of your next turn, or the spell is wasted. You are considered proficient with the grenade for this attack. Choose a single target within the grenade’s blast radius; that target is affected by the spell as if you had successfully touched it. The grenade goes off as normal, with all of its usual effects within its blast radius. If you miss the targeted intersection with the grenade, you must choose a target within the grenade’s new blast radius. If there are no suitable targets within the grenade’s blast radius, the spell is wasted. Spells whose ranges are not touch don’t benefit from this magic hack.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/spell_grenade.png"
+  "img": "systems/starpg/icons/classes/spell_grenade.png"
 }

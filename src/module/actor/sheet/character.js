@@ -6,7 +6,7 @@ export class ActorSheetSFRPGCharacter extends ActorSheetSFRPG {
     static get defaultOptions() {
         const options = super.defaultOptions;
         mergeObject(options, {
-            classes: ['sfrpg', 'sheet', 'actor', 'character'],
+            classes: ['starpg', 'sheet', 'actor', 'character'],
             width: 715,
             //height: 830
         });
@@ -15,7 +15,7 @@ export class ActorSheetSFRPGCharacter extends ActorSheetSFRPG {
     }
 
     get template() {
-        const path = "systems/sfrpg/templates/actors/";
+        const path = "systems/starpg/templates/actors/";
         if (!game.user.isGM && this.actor.limited) return path + "limited-sheet.html";
         return path + "character-sheet.html";
     }
@@ -27,7 +27,7 @@ export class ActorSheetSFRPGCharacter extends ActorSheetSFRPG {
         if (hp.temp === 0) delete hp.temp;
         if (hp.tempmax === 0) delete hp.tempmax;
 
-        sheetData["disableExperience"] = game.settings.get("sfrpg", "disableExperienceTracking");
+        sheetData["disableExperience"] = game.settings.get("starpg", "disableExperienceTracking");
 
         return sheetData;
     }

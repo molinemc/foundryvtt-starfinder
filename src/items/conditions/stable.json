@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.conditions.Dying] + @Compendium[sfrpg.conditions.Dead] + @Compendium[sfrpg.conditions.Unconscious]</p>\n<hr>\n<p style=\"text-align: justify;\">If you were dying but spent Resolve Points to stabilize (see Using Resolve Points beginning on page 250 in Injury and Death), or if you received healing from an ally, you are stable.</p>\n<p style=\"text-align: justify;\">You are no longer dying, but you are still unconscious.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<p style=\"text-align: justify;\">&gt;@Compendium[starpg.conditions.Dying] + @Compendium[starpg.conditions.Dead] + @Compendium[starpg.conditions.Unconscious]</p>\n<hr>\n<p style=\"text-align: justify;\">If you were dying but spent Resolve Points to stabilize (see Using Resolve Points beginning on page 250 in Injury and Death), or if you received healing from an ally, you are stable.</p>\n<p style=\"text-align: justify;\">You are no longer dying, but you are still unconscious.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -67,7 +67,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/stable.png",
+  "img": "systems/starpg/icons/conditions/stable.png",
   "_id": "H51jmhxF9XuwDOE7",
   "sort": 3500000,
   "flags": {}

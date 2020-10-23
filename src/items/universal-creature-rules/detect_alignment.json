@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>(SP OR SU)</p>\n<p>The creature can detect the alignment of another creature. This functions as @Compendium[sfrpg.spells.kxx5x0JAgFuEQJAm]{Detect Magic}, but rather than determining which creatures and objects in the area are magical, the creature can determine one other creature’s alignment.</p>\n<hr>\n<p>&nbsp;</p>",
+      "value": "<p>(SP OR SU)</p>\n<p>The creature can detect the alignment of another creature. This functions as @Compendium[starpg.spells.kxx5x0JAgFuEQJAm]{Detect Magic}, but rather than determining which creatures and objects in the area are magical, the creature can determine one other creature’s alignment.</p>\n<hr>\n<p>&nbsp;</p>",
       "chat": "",
       "unidentified": ""
     },

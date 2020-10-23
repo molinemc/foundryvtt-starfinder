@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You are experiencing stomach distress.</p>\n<p style=\"text-align: justify;\">You can’t attack, cast spells, concentrate on spells, or do anything else requiring attention.</p>\n<p style=\"text-align: justify;\">The only action you can take is a single move action per turn.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">You are experiencing stomach distress.</p>\n<p style=\"text-align: justify;\">You can’t attack, cast spells, concentrate on spells, or do anything else requiring attention.</p>\n<p style=\"text-align: justify;\">The only action you can take is a single move action per turn.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -67,7 +67,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/nauseated.png",
+  "img": "systems/starpg/icons/conditions/nauseated.png",
   "_id": "LoRydw1D4bqlbkA2",
   "sort": 2500000,
   "flags": {}

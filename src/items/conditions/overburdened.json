@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">All of your speeds are reduced to 5 feet, your maximum Dexterity bonus to your Armor Class is reduced to +0, and you take a &ndash;5 penalty to Strength- and Dexterity-based checks (or your armor&rsquo;s armor check penalty, whichever is worse).</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p style=\"text-align: justify;\">All of your speeds are reduced to 5 feet, your maximum Dexterity bonus to your Armor Class is reduced to +0, and you take a &ndash;5 penalty to Strength- and Dexterity-based checks (or your armor&rsquo;s armor check penalty, whichever is worse).</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -96,7 +96,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/overburdened.png",
+  "img": "systems/starpg/icons/conditions/overburdened.png",
   "_id": "11k3ObUIXEYFGrg9",
   "sort": 2800000,
   "flags": {}

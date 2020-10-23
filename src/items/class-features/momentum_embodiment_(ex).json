@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.hxGhCeOFrN0keV9A]{Momentum}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Once per combat, when you move a distance greater than your normal speed in one turn (using multiple move actions, the run full action, or a bonus to speed that allows you to move beyond your normal maximum), you can gain 1 Entropy Point without taking any additional action.<br></span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.hxGhCeOFrN0keV9A]{Momentum}</p>\n<p><span id=\"ctl00_MainContent_DetailedOutput\">Once per combat, when you move a distance greater than your normal speed in one turn (using multiple move actions, the run full action, or a bonus to speed that allows you to move beyond your normal maximum), you can gain 1 Entropy Point without taking any additional action.<br></span></p>",
       "chat": "",
       "unidentified": ""
     },

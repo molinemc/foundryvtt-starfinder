@@ -1,7 +1,7 @@
 export default async function migrateWorld() {
     const systemVersion = game.system.data.version;
     const systemSchema = Number(game.system.data.schema);
-    const worldSchema = game.settings.get('sfrpg', 'worldSchemaVersion') ?? 0;
+    const worldSchema = game.settings.get('starpg', 'worldSchemaVersion') ?? 0;
 
     ui.notifications.info(game.i18n.format("SFRPG.MigrationBeginingMigration", { systemVersion }), { permanent: true });
 
@@ -29,7 +29,7 @@ export default async function migrateWorld() {
         }
     }
 
-    game.settings.set('sfrpg', 'worldSchemaVersion', systemSchema);
+    game.settings.set('starpg', 'worldSchemaVersion', systemSchema);
     ui.notifications.info(game.i18n.format("SFRPG.MigrationEndMigration", { systemVersion }), { permanent: true });
 }
 
@@ -71,7 +71,7 @@ const _resetActorFlags = function (actor, data) {
     }
 
     data["flags.-=starfinder"] = null;
-    data["flags.sfrpg"] = sfFlags;
+    data["flags.starpg"] = sfFlags;
 
     return data;
 }

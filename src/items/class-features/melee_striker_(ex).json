@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">&gt;</span><span id=\"ctl00_MainContent_DataListTalentsAll_ctl03_LabelName\"><span id=\"ctl00_MainContent_DataListTalentsAll_ctl15_LabelName\">@Compendium[sfrpg.class-features.wFTC0sGqdpnZUib4]{Gear Boost}</span></span></p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl03_LabelName\"><span id=\"ctl00_MainContent_DataListTalentsAll_ctl15_LabelName\">add an additional bonus equal to half your Strength bonus to damage rolls with melee weapons.</span><br /></span></p>",
+      "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">&gt;</span><span id=\"ctl00_MainContent_DataListTalentsAll_ctl03_LabelName\"><span id=\"ctl00_MainContent_DataListTalentsAll_ctl15_LabelName\">@Compendium[starpg.class-features.wFTC0sGqdpnZUib4]{Gear Boost}</span></span></p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl03_LabelName\"><span id=\"ctl00_MainContent_DataListTalentsAll_ctl15_LabelName\">add an additional bonus equal to half your Strength bonus to damage rolls with melee weapons.</span><br /></span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/melee_striker.png"
+  "img": "systems/starpg/icons/classes/melee_striker.png"
 }

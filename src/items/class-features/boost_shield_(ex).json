@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.YMGOKoZtKgJqIsAD]{Mechanic Trick}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl25_LabelName\">Your energy shield grants you a number of temporary Hit Points equal to your Intelligence modifier + double your mechanic level. In addition, if you have already used your shield, you can spend 1 Resolve Point to use it again without having to regain Stamina Points first. This replenishes your shield’s temporary Hit Points to full. You must have the energy shield mechanic trick to learn this trick.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.YMGOKoZtKgJqIsAD]{Mechanic Trick}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl25_LabelName\">Your energy shield grants you a number of temporary Hit Points equal to your Intelligence modifier + double your mechanic level. In addition, if you have already used your shield, you can spend 1 Resolve Point to use it again without having to regain Stamina Points first. This replenishes your shield’s temporary Hit Points to full. You must have the energy shield mechanic trick to learn this trick.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/boost_shield.png"
+  "img": "systems/starpg/icons/classes/boost_shield.png"
 }

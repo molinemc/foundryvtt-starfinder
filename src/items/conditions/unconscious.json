@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.conditions.Dying] + @Compendium[sfrpg.conditions.Stable] + @Compendium[sfrpg.conditions.Dead]</p>\n<hr>\n<p>You are knocked out and @Compendium[sfrpg.conditions.Helpless].</p>\n<p>Unconsciousness can result from having 0 Hit Points.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<p style=\"text-align: justify;\">&gt;@Compendium[starpg.conditions.Dying] + @Compendium[starpg.conditions.Stable] + @Compendium[starpg.conditions.Dead]</p>\n<hr>\n<p>You are knocked out and @Compendium[starpg.conditions.Helpless].</p>\n<p>Unconsciousness can result from having 0 Hit Points.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -67,7 +67,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/unconscious.png",
+  "img": "systems/starpg/icons/conditions/unconscious.png",
   "_id": "lf8pbezocjYIvR9y",
   "sort": 3800000,
   "flags": {}

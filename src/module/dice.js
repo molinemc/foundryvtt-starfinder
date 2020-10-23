@@ -28,7 +28,7 @@ export class DiceSFRPG {
         fastForward = true, critical = 20, fumble = 1, onClose, dialogOptions }) {
 
         flavor = flavor || title;
-        const autoFastForward = game.settings.get('sfrpg', 'useQuickRollAsDefault');
+        const autoFastForward = game.settings.get('starpg', 'useQuickRollAsDefault');
         if (event && autoFastForward) {
             event.shiftKey = autoFastForward;
         }
@@ -66,7 +66,7 @@ export class DiceSFRPG {
             d20.options.critical = critical;
             d20.options.fumble = fumble;
 
-            if (game.settings.get("sfrpg", "useCustomChatCard")) {
+            if (game.settings.get("starpg", "useCustomChatCard")) {
                 //Push the roll to the ChatBox
                 SFRPGCustomChatMessage.renderStandardRoll(roll, myData, action);
             } else {
@@ -99,8 +99,8 @@ export class DiceSFRPG {
         else parts = parts.concat(["@bonus"]);
 
         // Render modal dialog
-        template = template || "systems/sfrpg/templates/chat/roll-dialog.html";
-        const useAdvantage = game.settings.get("sfrpg", "useAdvantageDisadvantage");
+        template = template || "systems/starpg/templates/chat/roll-dialog.html";
+        const useAdvantage = game.settings.get("starpg", "useAdvantageDisadvantage");
         let templateData = {
             formula: parts.join(" + "),
             data: data,
@@ -172,7 +172,7 @@ export class DiceSFRPG {
     static damageRoll({ event = new Event(''), parts, criticalData, actor, data, template, title, speaker, flavor, critical = true, onClose, dialogOptions }) {
         flavor = flavor || title;
 
-        const autoFastForward = game.settings.get('sfrpg', 'useQuickRollAsDefault');
+        const autoFastForward = game.settings.get('starpg', 'useQuickRollAsDefault');
         if (event && autoFastForward) {
             event.shiftKey = autoFastForward;
         }
@@ -223,7 +223,7 @@ export class DiceSFRPG {
         } else parts = parts.concat(["@bonus"]);
 
         // Construct dialog data
-        template = template || "systems/sfrpg/templates/chat/roll-dialog.html";
+        template = template || "systems/starpg/templates/chat/roll-dialog.html";
         let dialogData = {
             formula: parts.join(" + "),
             data: data,

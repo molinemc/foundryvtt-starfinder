@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.DR8JvF0xiwsXggxj]{Expertise Talent}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl02_LabelName\">You have been taught to carefully consider your own assumptions, making it much less likely you assign false motives to other creatures. When using Sense Motive to detect deception or discern a secret message, as long as your expertise die roll result is not a 1, you don’t think a truthful statement contains deceptions or infer false information from a secret message even if you fail your check by 5 or more.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.DR8JvF0xiwsXggxj]{Expertise Talent}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl02_LabelName\">You have been taught to carefully consider your own assumptions, making it much less likely you assign false motives to other creatures. When using Sense Motive to detect deception or discern a secret message, as long as your expertise die roll result is not a 1, you don’t think a truthful statement contains deceptions or infer false information from a secret message even if you fail your check by 5 or more.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/analyst.png"
+  "img": "systems/starpg/icons/classes/analyst.png"
 }

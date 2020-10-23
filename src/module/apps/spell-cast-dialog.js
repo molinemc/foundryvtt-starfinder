@@ -8,7 +8,7 @@ import { ItemSFRPG } from "../item/item.js";
 export class SpellCastDialog extends Dialog {
     constructor(actor, item, dialogData={}, options={}) {
       super(dialogData, options);
-      this.options.classes = ["sfrpg", "dialog"];
+      this.options.classes = ["starpg", "dialog"];
   
       /**
        * Store a reference to the Actor entity which is casting the spell
@@ -64,7 +64,7 @@ export class SpellCastDialog extends Dialog {
       const canCast = spellLevels.some(l => l.hasSlots);
   
       // Render the Spell casting template
-      const html = await renderTemplate("systems/sfrpg/templates/apps/spell-cast.html", {
+      const html = await renderTemplate("systems/starpg/templates/apps/spell-cast.html", {
         item: item.data,
         canCast,
         canUpcast,

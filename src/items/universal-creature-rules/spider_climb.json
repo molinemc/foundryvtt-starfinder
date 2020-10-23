@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>(EX)</p>\n<p>The creature can climb as though affected by the spell @Compendium[sfrpg.spells.jA6eTWFaULIpjXAx]{Spider Climb}.</p>\n<hr>\n<p>&nbsp;</p>",
+      "value": "<p>(EX)</p>\n<p>The creature can climb as though affected by the spell @Compendium[starpg.spells.jA6eTWFaULIpjXAx]{Spider Climb}.</p>\n<hr>\n<p>&nbsp;</p>",
       "chat": "",
       "unidentified": ""
     },

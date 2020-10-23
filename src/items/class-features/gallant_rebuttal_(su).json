@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p>&gt;@Compendium[sfrpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl44_LabelName\">Your solar shield aligns with your cosmic potency to such an extent that you can retaliate with a starry burst against those who seek to harm you. As a reaction when you are attuned or fully attuned and take damage from a creature your solar shield is aligned against, you can cause that creature to take fire damage equal to your Charisma bonus. You must have a solar shield to select this revelation.</span></p>",
+      "value": "<p>&gt;@Compendium[starpg.class-features.G7p2YIGFTAU6uGjL]{Stellar Revelation}</p>\n<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl44_LabelName\">Your solar shield aligns with your cosmic potency to such an extent that you can retaliate with a starry burst against those who seek to harm you. As a reaction when you are attuned or fully attuned and take damage from a creature your solar shield is aligned against, you can cause that creature to take fire damage equal to your Charisma bonus. You must have a solar shield to select this revelation.</span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/images/cup/gameplay/photon.png"
+  "img": "systems/starpg/images/cup/gameplay/photon.png"
 }

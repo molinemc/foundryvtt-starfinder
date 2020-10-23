@@ -8,7 +8,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">&gt;<a class=\"entity-link\" data-pack=\"sfrpg.class-features\" data-id=\"VDaL3dTtI6hpiyQf\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Gear Boost</a></span></p>\n                <p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl03_LabelName\"><span id=\"ctl00_MainContent_DataListTalentsAll_ctl18_LabelName\">When you attack with a weapon with the explode special property and a radius of 10 feet or greater, you can increase the radius of the explosion by 5 feet.</span><br></span></p>",
+      "value": "<p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl00_LabelName\">&gt;<a class=\"entity-link\" data-pack=\"starpg.class-features\" data-id=\"VDaL3dTtI6hpiyQf\" draggable=\"true\"><i class=\"fas fa-suitcase\"></i> Gear Boost</a></span></p>\n                <p><span id=\"ctl00_MainContent_DataListTalentsAll_ctl03_LabelName\"><span id=\"ctl00_MainContent_DataListTalentsAll_ctl18_LabelName\">When you attack with a weapon with the explode special property and a radius of 10 feet or greater, you can increase the radius of the explosion by 5 feet.</span><br></span></p>",
       "chat": "",
       "unidentified": ""
     },
@@ -73,5 +73,5 @@
     }
   },
   "flags": {},
-  "img": "systems/sfrpg/icons/classes/powerfull_explosive.png"
+  "img": "systems/starpg/icons/classes/powerfull_explosive.png"
 }

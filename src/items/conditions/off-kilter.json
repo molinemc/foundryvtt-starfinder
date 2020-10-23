@@ -3,7 +3,7 @@
   "type": "feat",
   "data": {
     "description": {
-      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[sfrpg.rules.Conditions]</p>\n<hr/>\n<p>You are disoriented and floating in zero gravity.</p>\n<p>You can’t take move actions to move your speed, crawl, or take a guarded step.</p>\n<p>You are @Compendium[sfrpg.conditions.Flat-Footed] and take a –2 penalty to attack rolls.<br><br>You must use a method of propulsion to right yourself or grab a stabilizing object such as a wall or ladder (usually as a move action) in order to end this condition.</p>\n<p>See Zero Gravity on page 402 for more information.</p>",
+      "value": "<p style=\"text-align: justify;\">&gt;@Compendium[starpg.rules.Conditions]</p>\n<hr/>\n<p>You are disoriented and floating in zero gravity.</p>\n<p>You can’t take move actions to move your speed, crawl, or take a guarded step.</p>\n<p>You are @Compendium[starpg.conditions.Flat-Footed] and take a –2 penalty to attack rolls.<br><br>You must use a method of propulsion to right yourself or grab a stabilizing object such as a wall or ladder (usually as a move action) in order to end this condition.</p>\n<p>See Zero Gravity on page 402 for more information.</p>",
       "chat": "",
       "unidentified": ""
     },
@@ -82,7 +82,7 @@
       "parts": []
     }
   },
-  "img": "systems/sfrpg/icons/conditions/offkilter.png",
+  "img": "systems/starpg/icons/conditions/offkilter.png",
   "_id": "QnGpBSHSTiszjPSb",
   "sort": 2600000,
   "flags": {}

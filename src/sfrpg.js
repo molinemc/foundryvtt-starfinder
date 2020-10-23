@@ -1,10 +1,10 @@
 /**
  * The Starfinder game system for Foundry Virtual Tabletop
- * Author: wildj79
+ * Author: molinemc
  * Software License: MIT
  * Content License: OGL v1.0a
- * Repository: https://github.com/wildj79/foundryvtt-starfinder
- * Issue Tracker: https://github.com/wildj79/foundryvtt-starfinder/issues
+ * Repository: https://github.com/molinemc/foundryvtt-starfinder
+ * Issue Tracker: https://github.com/molinemc/foundryvtt-starfinder/issues
  */
 import { SFRPG } from "./module/config.js";
 import { preloadHandlebarsTemplates } from "./module/templates.js";
@@ -54,7 +54,7 @@ Hooks.once('init', async function () {
     console.log("SFRPG | Initializing the rules engine");
     const engine = new Engine();
 
-    game.sfrpg = {
+    game.starpg = {
         rollItemMacro,
         engine,
         SFRPGModifierType: SFRPGModifierType,
@@ -99,14 +99,14 @@ Hooks.once('init', async function () {
     templateOverrides();
 
     Actors.unregisterSheet("core", ActorSheet);
-    Actors.registerSheet("sfrpg", ActorSheetSFRPGCharacter, { types: ["character"], makeDefault: true });
-    Actors.registerSheet("sfrpg", ActorSheetSFRPGNPC, { types: ["npc"], makeDefault: true });
-    Actors.registerSheet("sfrpg", ActorSheetSFRPGStarship, { types: ["starship"], makeDefault: true });
-    Actors.registerSheet("sfrpg", ActorSheetSFRPGVehicle, { types: ["vehicle"], makeDefault: true });
-    Actors.registerSheet("sfrpg", ActorSheetSFRPGDrone, { types: ["drone"], makeDefault: true });
+    Actors.registerSheet("starpg", ActorSheetSFRPGCharacter, { types: ["character"], makeDefault: true });
+    Actors.registerSheet("starpg", ActorSheetSFRPGNPC, { types: ["npc"], makeDefault: true });
+    Actors.registerSheet("starpg", ActorSheetSFRPGStarship, { types: ["starship"], makeDefault: true });
+    Actors.registerSheet("starpg", ActorSheetSFRPGVehicle, { types: ["vehicle"], makeDefault: true });
+    Actors.registerSheet("starpg", ActorSheetSFRPGDrone, { types: ["drone"], makeDefault: true });
 
     Items.unregisterSheet("core", ItemSheet);
-    Items.registerSheet("sfrpg", ItemSheetSFRPG, { makeDefault: true });
+    Items.registerSheet("starpg", ItemSheetSFRPG, { makeDefault: true });
 
     /**
      * Manage counter classe feature from combat tracker
@@ -142,7 +142,7 @@ Hooks.once("setup", function () {
     }
 
     console.log("SFRPG | Configuring rules engine");
-    registerSystemRules(game.sfrpg.engine);
+    registerSystemRules(game.starpg.engine);
 
     Handlebars.registerHelper("not", function (value) {
         return !Boolean(value);
@@ -240,7 +240,7 @@ Hooks.once("setup", function () {
 });
 
 Hooks.once("ready", () => {
-    const currentSchema = game.settings.get('sfrpg', 'worldSchemaVersion') ?? 0;
+    const currentSchema = game.settings.get('starpg', 'worldSchemaVersion') ?? 0;
     const systemSchema = Number(game.system.data.schema);
     const needsMigration = currentSchema < systemSchema || currentSchema === 0;
 
@@ -307,7 +307,7 @@ export async function handleOnDrop(event) {
 }
 
 Hooks.on("canvasInit", function () {
-    canvas.grid.diagonalRule = game.settings.get("sfrpg", "diagonalMovement");
+    canvas.grid.diagonalRule = game.settings.get("starpg", "diagonalMovement");
     SquareGrid.prototype.measureDistances = measureDistances;
     Token.prototype.getBarAttribute = getBarAttribute;
 });
@@ -315,7 +315,7 @@ Hooks.on("canvasInit", function () {
 Hooks.on("renderChatMessage", (app, html, data) => {
     highlightCriticalSuccessFailure(app, html, data);
 
-    if (game.settings.get("sfrpg", "autoCollapseItemCards")) html.find('.card-content').hide();
+    if (game.settings.get("starpg", "autoCollapseItemCards")) html.find('.card-content').hide();
 });
 Hooks.on("getChatLogEntryContext", addChatMessageContextOptions);
 Hooks.on("renderChatLog", (app, html, data) => ItemSFRPG.chatListeners(html));
@@ -335,7 +335,7 @@ Hooks.on("hotbarDrop", (bar, data, slot) => {
  * @returns {Promise}
  */
 async function createItemMacro(item, slot) {
-    const command = `game.sfrpg.rollItemMacro("${item.name}");`;
+    const command = `game.starpg.rollItemMacro("${item.name}");`;
     let macro = game.macros.entities.find(m => (m.name === item.name) && (m.command === command));
     if (!macro) {
         macro = await Macro.create({
@@ -343,7 +343,7 @@ async function createItemMacro(item, slot) {
             type: "script",
             img: item.img,
             command: command,
-            flags: {"sfrpg.itemMacro": true}
+            flags: {"starpg.itemMacro": true}
         }, {displaySheet: false});
     }
 

@@ -3,15 +3,15 @@ import { ActorSheetSFRPG } from "./base.js";
 export class ActorSheetSFRPGVehicle extends ActorSheetSFRPG {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            classes: ["sfrpg", "sheet", "actor", "vehicle"],
+            classes: ["starpg", "sheet", "actor", "vehicle"],
             width: 600,
             height: 685
         });
     }
 
     get template() {
-        if (!game.user.isGM && this.actor.limited) return "systems/sfrpg/templates/actors/limited-vehicle-sheet.html";
-        return "systems/sfrpg/templates/actors/vehicle-sheet.html";
+        if (!game.user.isGM && this.actor.limited) return "systems/starpg/templates/actors/limited-vehicle-sheet.html";
+        return "systems/starpg/templates/actors/vehicle-sheet.html";
     }
 
     getData() {
